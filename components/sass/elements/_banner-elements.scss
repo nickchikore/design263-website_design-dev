@@ -1,0 +1,27 @@
+.banner-text {
+    position: absolute;
+    top: 0px;
+    margin: 0 5em;
+    //width: 30%;
+    bottom: 100%;
+	opacity:0;
+	transition:opacity 200ms ease-out, bottom 100ms ease-out;
+	transition-delay: 300ms;
+	overflow: hidden;
+     p {
+	    font-size: 28px;
+	    text-transform: uppercase;
+	    line-height: 1.25em;
+	    letter-spacing: .025em;
+	    padding: 90px 30px 20px;
+	    color: inherit;
+	}
+	&.dark{
+		background: rgba(0, 0, 0, 0.65);
+		color:#fff;
+	}
+	&.light{
+		background: rgba(196, 204, 185, 0.65);
+		color:#000;
+	}
+}

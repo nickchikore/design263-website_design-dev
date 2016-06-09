@@ -1,0 +1,20 @@
+body{
+	position: relative;
+	padding-top:0;
+	&:hover header{
+		opacity: 1;
+	}
+}
+.page{
+	padding-top: 70px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}

@@ -1,0 +1,534 @@
+var data = {
+  "pages": [
+    {
+      "pagename":"About us",
+      "ref":"about",
+      "type":"main page",
+      "index":"1",
+      "url":"about",
+      "subIndex":" ",
+      "pageTitle":"Web development consultants",
+      "keywords":"web development, web developer, web design, search engine optimisation, Analytics and tracking,User experience , Web content auditing, web content authoring",
+      "description":"Visual cues specialises in web consultancy, we focus on achieving what your website was intended to do by focusing on fixing what it is not currently doing for you",
+      "PageHeading":"We make web development easy peezy",
+      "PageMainSubheading":"Take a leaf out of our book.",
+      "MainSeoContent":"Visual Cues takes websites you currently have and builds on that. Having a website with irrelevant content is detrimental to your business objectives unless you are intentioally setting up to fail.Visual Cues takes your lead, your ideas and your ethos and we build unique solutions for you based on what your pages are actually mean to achieve by simplifying how you approach the web."
+    },
+    {
+      "pagename":"Website content auditing",
+      "ref":"auditing",
+      "type":"main page",
+      "index":"1",
+      "url":"content-auditing",
+      "subIndex":" ",
+      "pageTitle":"Website content auditing - Visual Cues",
+      "keywords":" Web content auditing, web content authoring, content management",
+      "description":"Visual cues will help you compose relevant content which get the right clients and customers viewing the right pages on your website. Our content authors have a wealth of experience making content that paints a picture that is clear and concise",
+      "PageHeading":"Create relevant engaging content",
+      "PageMainSubheading":"Give the people what they want",
+      "MainSeoContent":"Visual cues takes what you currently have and builds on it, it is not worth much just having a website with content which does not create the desire effect. We take your lead on what you need for your website on the basis of what you currently have on your website and redefine it to achieve your online objectives."
+    },
+    {
+      "pagename":"Search Engine Optimisation",
+      "ref":"seo",
+      "type":"main page",
+      "index":"2",
+      "url":"seo",
+      "subIndex":" ",
+      "pageTitle":"Search Engine Optimisation - Visual Cues",
+      "keywords":" Search Engine Optimisation, seo ",
+      "description":"Visual cues will not only set you up the right way , we teach you how to continue being visible, search engine optimisation was never meant to be difficult. ",
+      "PageHeading":"Become more visible",
+      "PageMainSubheading":"",
+      "MainSeoContent":"Over the years the world wide web has become more sophisticates and the way in which we view web content has changed and become more complicated as we all have individual tastes. this however has meant that search engines and they way they look at what is relevant has had to evolve to serve up the right content which is right for our individual and unique consumers values, in essence , search engines now view our websites our web pages in a much more simplistic, and are now able to tell the difference between what is good relevant content, and what is useless and time wasting rubbish.A simple consultation will leave your web pages in either in a better state as we will make recommendations as to how they can be presented better so you can move closer to the top listings, or leave you more secure in the knowledge that your website works just fine and there is nothing more you need to do except wait and see yourself climb to the top of the search  engine"
+    },
+    {
+      "pagename":"Analytics and tracking",
+      "ref":"anayltics",
+      "type":"main page",
+      "index":"2",
+      "url":"analytics",
+      "subIndex":" ",
+      "pageTitle":"Analytics and tracking - Visual Cues",
+      "keywords":" Google analytics, analytics, google tracking, tracking scripts",
+      "description":"Be aware of your visitors’ habits and know what to prioritise and focus your online strategy on. knowing what works for your audience is always half the battle won.",
+      "PageMainSubheading":"Give the people what they want",
+      "MainSeoContent":"Knowing what a consumer wants puts you in a very advantageous position, it creates a predictable certainty that gives you an edge over your competitors and those around you because it makes consumers feel special, like they belong on your page, like you have struck a connection that the other websites have not, because you shave the thing that they want, or at least something very close to it.Visual cues can help your web pages be set up in such a way that your visitors will leave a telling story of why some things on your website work, and why others may have been great ideas in theory, but they just did not work in practice, we will help you analyse your visitors’ habits on your website and point out what to lead with and invest more off, and look for solutions to why some ideas just don’t work in practice."
+    },
+    {
+      "pagename":"UX(user experience)",
+      "ref":"ux",
+      "type":"main page",
+      "index":"2",
+      "url":"user-experience",
+      "subIndex":" ",
+      "pageTitle":"User Experience - Visual Cues",
+      "keywords":" Web content auditing, web content authoring, content management",
+      "description":"A seamless website experience makes for happier customers who will frequent your website more often, make your website accessible, understandable and easy to use .",
+      "PageMainSubheading":"This maybe be the day when your website is just right",
+      "MainSeoContent":"Knowing what attracts your website visitors to your website is just as important as knowing the things about the same site that may be turning them off. This is a concept that most large firms and companies have known for a long time and having this in their armoury has proved a lethal weapon to wield in the battle for online customers and market share.Simply put, the better and easier you make your website to navigate , the more enjoyable it becomes for the end user and therefore the longer people are willing to tolerate whatever it is that you are trying to sell because they don’t have the added burden of tolerating a tedious and unthoughtful customer experience.From simple wording of statements, to positioning of buttons on a page, a lacklustre	focus on user experience issues can cause great angst while a well thought out strategy could prove to be just right  if you know what is needed to make a great website work.Making a website is like making a great dish, adding too much seasoning could prove costly while too little could be seen as boring, lacking inspiration and mundein. You need a website which if you take time and invest a little bit of effort, turns out just right."
+    },
+    {
+      "pagename":"Website design and development",
+      "ref":"webdev",
+      "type":"main page",
+      "index":"2",
+      "url":"web-development",
+      "subIndex":" ",
+      "pageTitle":"Website design and development - Visual Cues",
+      "keywords":" Website development, web design, wireframes, webpage mockup, cms",
+      "description":"Visual cues can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
+      "PageHeading":"We take awesome designs",
+      "PageMainSubheading":"We development inspiring engaging websites",
+      "MainSeoContent":"Web development is about taking a simple idea and creating engaging solutions which a inspire reaction, like anything else , the reaction you get is determined by how you set out to achieve your objective. At visual cues our goal is to create websites and applications that move people, and we do it right everytime, taking concepts you put infront of us and delivering fully functional , robust solutions to meet your objectives."
+    },
+    {
+      "pagename":"Services",
+      "ref":"service",
+      "type":"main page",
+      "index":"1",
+      "url":"services",
+      "subIndex":" ",
+      "pageTitle":"Web development consultants - Be inspired",
+      "keywords":"web development, web developer, web design, search engine optimisation, Analytics and tracking,User experience , Web content auditing, web content authoring",
+      "description":"Design and build your web project from ground up, know what your clients like and what their habits are and stay visible to search engine.",
+      "PageHeading":"We can transform your website",
+      "PageMainSubheading":"All you have to do is ask",
+      "MainSeoContent":"Whether you have a website or you need a new one, we can help you today. From concept mockups and wireframing in the design process, to creating robust backend admin solutions or store procedures, we have the know-how, the resources and the specialists who can put you over the line, Visual cues is a design agency that can take you to your destination. "
+    }
+  ],
+  "clients" : [
+    {
+      "client": "Tesco PLC",
+      "reference": "tesco",
+      "clientImg": "tesco_logo.png",
+      "snapshot": "tesco.png",
+      "project": "Tesco.com homepage",
+      "type": "Build and Maintainence",
+      "category": "Banner development",
+      "index": "1",
+      "url": "http://www.tesco.com",
+      "scale": "Small",
+      "services": "Banner production",
+      "keywords": "Banner coding, ad placements, SEO",
+      "summary": "Maintaining and building banners for the different sections of tesco.com for a period of six months, worked on evolving the code base and building a reusable platform on the Tesco home hub",
+      "features": "Responsive html5 banners, dynamic reusable code, Full stack browser compatible",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "Tesco commissioned us to build their new HTML5 banners as part of their push for a responsive website. For six months Visual Cues were part of the team that took the lead in the production phase of the Tesco.com website banners and delivered all them straight onto the website .",
+          "caseFeatures": []
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "tesco-thumb_1.jpg"},
+          {"tile": "tesco-thumb_2.jpg"},
+          {"tile": "tesco-thumb_3.jpg"},
+          {"tile": "tesco-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "Tesco Clubcard",
+      "reference": "clubcard",
+      "clientImg": "clubcard_logo.png",
+      "snapshot": "clubcard.png",
+      "project": "Tesco clubcard website rebrand",
+      "type": "Build and Maintainence",
+      "category": "website development",
+      "index": "2",
+      "url": "https://secure.tesco.com/clubcard/",
+      "scale": "Large",
+      "services": "Web development, website rebuild",
+      "keywords": "web development, web consultation, UX",
+      "summary": "Tesco Clubcard decided to do a website revamp to boost their new 'Clubcard Boost' campaign. The task was to create a new website within a short space of time and make it as accessible and user friendly as possible",
+      "features": "Responsive html5 banners, dynamic reusable code, Full stack browser compatible, fully accessible across all devices",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "The tesco Clubcard website's purpose is to attract and retain loyal customers using their their brand loyalty schemes which revolve around being a Tesco clubcard member. The project's main objective was to evolve the then existing website to utilise newer , more modern looking concepts in web design. Our job as developers was to build the website to the new specifications and deliver a lightweight , fast and expremely accessible solution for the client. ",
+          "caseFeatures": []
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "clubcard-thumb_1.jpg"},
+          {"tile": "clubcard-thumb_2.jpg"},
+          {"tile": "clubcard-thumb_3.jpg"},
+          {"tile": "clubcard-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "1st Base Entertainment",
+      "reference": "1stBase",
+      "clientImg": "1st-base_logo.png",
+      "snapshot": "1stBase.png",
+      "project": "1st base Entertainment website design and build",
+      "type": "Design and Build",
+      "category": "website development",
+      "index": "3",
+      "url": "http://www.1st-base-entertainment.com",
+      "scale": "Medium",
+      "services": "website concept and wireframing, web consultancy, copy writing, user experience concept,website templating and design, search engine optimisation ",
+      "keywords": "Portfolio website, marketing and social branding",
+      "summary": "1st Base Entertertainment asked us to design develop and deliver a fast, transferable mobile friendly website to showcase their services within a relatively short space of time and a very tight budget",
+      "features": "Mobile friendly, Content management system, Store , lightweight and fast loading, modern development techniques, fully accessible across devices, browser compatible, analytics, seo",
+      "duration": "eight weeks",
+      "caseStudy": {
+          "caseSummary": "1st Base Entertainment have been fast growing as a music powerhouse in the realms of music production and showcase, and they needed a conduit to not only showcase their work  to record labels and prospective clients, but to also sell their merchandise without having to use a third party. We proceeded to first create wireframes from mockups we compiled during consultations with the client and create a coherent concept which leans on their brand and progressive model. We then created and got approval on three templates which we used as the basis for the websites three sections and finally three weeks into the project we proceeded to develop the website which was delivered within the eight week time period.",
+          "caseFeatures": [
+            {"feature": "scollable menu"},
+            {"feature": "parallax effect"},
+            {"feature": "store"},
+            {"feature": "responsive"},
+            {"feature": "analytics"},
+            {"feature": "content manager"},
+            {"feature": "dynamic site search"}
+          ]
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "1st-base-thumb_1.jpg"},
+          {"tile": "1st-base-thumb_2.jpg"},
+          {"tile": "1st-base-thumb_3.jpg"},
+          {"tile": "1st-base-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "Hawes and Curtis",
+      "reference": "hawesandcurtis",
+      "clientImg": "hawes_logo.png",
+      "snapshot": "hawes.png",
+      "project": "Hawes and Curtis website rebuild",
+      "type": "Build, Consultancy and Maintainence",
+      "category": "website development",
+      "index": "4",
+      "url": "http://www.hawesandcurtis.co.uk",
+      "scale": "Large",
+      "services": "Web development, website rebuild, UX consultancy",
+      "keywords": "repsonsive design, device specific, web development, consultancy, search engine optimisation, maintainence guidelines",
+      "summary": "Hawes and Curtis needed to redesign and update their website to garner more clients and make themselves more visible and competitive in their market segment ",
+      "features": "Responsive html5 banners, dynamic reusable code",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "Hawes and Curtis ltd commissioned us to work on the moving their existing website from their current existing ecommerce platform , to a more bespoke platform, We collaborated with their backend developers to create frontend forward facing solutions using more up to date front end development methods, The task was to make the website not only repsonsive but also have it support older browsers as far back as Internet explorer 7, which the website does support now.  We made recommendations on their markup to get the best search engine rankings possible for the client and wrote guidelines for future proofing the technologies we used to achieve our objective.",
+          "caseFeatures": [
+            {"feature": "sticky header"},
+            {"feature": "product recommendations"},
+            {"feature": "store"},
+            {"feature": "responsive"},
+            {"feature": "analytics"},
+            {"feature": "content manager"},
+            {"feature": "dynamic site search"},
+            {"feature": "blog"},
+            {"feature": "product filtering"},
+            {"feature": "quick view"},
+            {"feature": "backward browser compatitible"},
+            {"feature": "cross device specific support"},
+            {"feature": "mini basket"}
+          ]
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "h&c-thumb_1.jpg"},
+          {"tile": "h&c-thumb_2.jpg"},
+          {"tile": "h&c-thumb_3.jpg"},
+          {"tile": "h&c-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "Ghost",
+      "reference": "ghost",
+      "clientImg": "ghost_logo.png",
+      "snapshot": "ghost.png",
+      "project": "Responsive Ghost website rebuild ",
+      "type": "Build and Maintainence",
+      "category": "website development",
+      "index": "5",
+      "url": "http://www.ghost.co.uk",
+      "scale": "large",
+      "services": "Web development, website rebuild",
+      "keywords": "seo review, google analytics, responsive web development",
+      "summary": "Ghost commissioned us to work on a rebuild on the website the already had which was sitting on a php framework and Magento. They required something a bit more flexible and bespoke as well as a free customisable system that they could change without having to rely on changes to the framework ",
+      "features": "Content management system, Ecommerce capabilility, responsive design, Customer tracking",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "The client needed a modern design to complement their fresh take on a classic brand. Part of this involved design work which was done by a creative design agency. Our job was to create a system which alowed the client to track customer movements and integrate social media and other APIs into the routine of shopping so the client could always tag their favorite items and share them with their friends. We build a robust content management system for them which allowed them to move away from the constraints of just being able to do updates on images and graphics , but to also allow text and copy updates giving them more control on their website. The website would need to track customer habits and make it possible for people to sign up or subscribe to the website newletter by recording email and personal data. We also created a wishlist were you could , as long as you were logged in to an existing user account save your favorite things and get notifications when these were in stock or on offer. ",
+          "caseFeatures": [
+            {"feature": "sticky header"},
+            {"feature": "wishlist"},
+            {"feature": "store"},
+            {"feature": "responsive"},
+            {"feature": "analytics"},
+            {"feature": "content manager"},
+            {"feature": "dynamic site search"},
+            {"feature": "blog"},
+            {"feature": "product filtering"},
+            {"feature": "backward browser compatitible"},
+            {"feature": "cross device specific support"},
+            {"feature": "mini basket"}
+          ]
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "ghost-thumb_1.jpg"},
+          {"tile": "ghost-thumb_2.jpg"},
+          {"tile": "ghost-thumb_3.jpg"},
+          {"tile": "ghost-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "Docksrio",
+      "reference": "docksrio",
+      "clientImg": "docksrio_logo.png",
+      "snapshot": "docksrio.png",
+      "project": "Rebuild Docksrio website",
+      "type": "Build and Maintainence",
+      "category": "website development",
+      "index": "6",
+      "url": "http://www.docksrio.com",
+      "scale": "medium",
+      "services": "Web development, website rebuild",
+      "keywords": "seo review, google analytics, responsive web development",
+      "summary": "Docksrio had just just launched in the UK and were looking to change their brand impression to match a more European market. We were commissioned to work on their website to make it a bit more translatable in the UK.",
+      "features": "Responsive html5 banners, dynamic reusable code",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "The task was to create an Ecommerce website to sell a south American shoes company to an English audience. We were also asked to create a Conetent Management System that could handle live text and price changes as well as create tokens for vouchers and promotional offers , The website would need to track customer habits and make it possible for people to sign up or subscribe to the website newletter by recording email and personal data.",
+          "caseFeatures": [
+            {"feature": "store"},
+            {"feature": "responsive"},
+            {"feature": "analytics"},
+            {"feature": "content manager"},
+            {"feature": "blog"},
+            {"feature": "product filtering"},
+            {"feature": "backward browser compatitible"},
+            {"feature": "cross device specific support"},
+            {"feature": "look book"}
+          ]
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "docksrio-thumb_1.jpg"},
+          {"tile": "docksrio-thumb_2.jpg"},
+          {"tile": "docksrio-thumb_3.jpg"},
+          {"tile": "docksrio-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "Wellcom Worldwide",
+      "reference": "wellcom",
+      "clientImg": "wellcom_logo.png",
+      "snapshot": "wellcom.png",
+      "project": "Multiple client advertising campaigns and banner building",
+      "type": "Build and consultancy",
+      "category": "banner development",
+      "index": "7",
+      "url": "http://www.wellcom-worldwide.com",
+      "scale": "small",
+      "services": "Web development, website rebuild",
+      "keywords": "Banner development, Flash conversions",
+      "summary": "Banner building and serving has become a major industry and at Wellcom worldwide the task was to create high end ad banners for very prestigious brands and companies",
+      "features": "Responsive html5 banners, dynamic reusable code",
+      "duration": "ongoing",
+      "caseStudy": {
+          "caseSummary": "Wellcom Worldwide are recognised as one of the more prominent production agencies in advertising. Our task was to create a development environment for a team of junior developers who work offshore as well as locally to produce advertsising banners for their clients who include British airways and Hyundai. Part of this was to go in and create proceses which would be followed to have translatable code which any developer could work on and feel comfortable taking on from another. As the team lead developer our job was to also make recommendations on which technologies to put focus on and which to ignore, as well as also crerate a code repo to keep all the code in sync and up to date so as to allow collaboration from developers working remotely. We also built the master banners which were used to create multiple adapts of the same banners in multiple sizes for different devices, ensuring the animations on every banner was as per brief",
+          "caseFeatures": [
+            {"feature": "HTML5 banners"},
+            {"feature": "device focused"},
+            {"feature": "dynamic and static"},
+            {"feature": "responsive"},
+            {"feature": "backward browser compatitible"},
+            {"feature": "cross device specific support"}
+          ]
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "wellcom-thumb_1.jpg"},
+          {"tile": "wellcom-thumb_2.jpg"},
+          {"tile": "wellcom-thumb_3.jpg"},
+          {"tile": "wellcom-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "Touker Suleyman",
+      "reference": "touker",
+      "clientImg": "touker_logo.png",
+      "snapshot": "touker.png",
+      "project": "Touker website for dragon's den launch",
+      "type": "Build",
+      "category": "website development",
+      "index": "8",
+      "url": "http://www.toukersuleyman.com",
+      "scale": "small",
+      "services": "Web development, website build",
+      "keywords": "website built, website design",
+      "summary": "Touker Suleyman was chosen as a candidate for BBC1's The dragon's den, and as a new dragon he wanted to enhance his profile ",
+      "features": "social media, analytics",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "The task was to create a relatable profile on the super investor by creating a sleek website that matched his personality. We used the designs provided by the client to build and develop his website",
+          "caseFeatures": [
+            {"feature": "responsive"},
+            {"feature": "analytics"},
+            {"feature": "content manager"},
+            {"feature": "blog"},
+            {"feature": "backward browser compatitible"},
+            {"feature": "cross device specific support"}
+          ]
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "touker-thumb_1.jpg"},
+          {"tile": "touker-thumb_2.jpg"},
+          {"tile": "touker-thumb_3.jpg"},
+          {"tile": "touker-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+        "client": "Huxley and Cox",
+        "reference": "huxleyandcox",
+        "clientImg": "huxley_logo.png",
+        "snapshot": "huxley.png",
+        "project": "Huxley and Cox website build ",
+        "type": "Build",
+        "category": "website development",
+        "index": "9",
+        "url": "http://www.huxleyandcox.com",
+        "scale": "large",
+        "services": "Web development, website build",
+        "keywords": "seo, google analytics, responsive web development",
+        "summary": "Huxley and Cox was one of the new brands taken on by Low Profile fashions, my job as lead developer was to consult and create the front end of the website, as well as create a well thought out User experience.",
+        "features": "Content management system, Ecommerce capabilility, responsive design, Customer tracking",
+        "duration": "6 months",
+        "caseStudy": {
+            "caseSummary": "Huxley and cox was trying to break into the handbags market and they needed to create a website for their business, The website needed to be able to not only take orders, but to store customer details and habits to help create a more personalised service. The website also has a robust content management system for them which allowed them to move away from the constraints of just being able to do updates on images and graphics , but to also allow text and copy updates giving them more control on their website.",
+            "caseFeatures": [
+              {"feature": "sticky header"},
+              {"feature": "wishlist"},
+              {"feature": "store"},
+              {"feature": "responsive"},
+              {"feature": "analytics"},
+              {"feature": "content manager"},
+              {"feature": "dynamic site search"},
+              {"feature": "blog"},
+              {"feature": "product filtering"},
+              {"feature": "backward browser compatitible"},
+              {"feature": "cross device specific support"},
+              {"feature": "mini basket"}
+            ]
+        },
+        "featured": {
+          "tiles":[
+            {"tile": "huxley-thumb_1.jpg"},
+            {"tile": "huxley-thumb_2.jpg"},
+            {"tile": "huxley-thumb_3.jpg"},
+            {"tile": "huxley-thumb_4.jpg"}
+          ]
+        },
+        "testimonial": ""
+    }
+  ],
+  "feature" : [
+  	{
+  		"slide":"Web content auditing",
+  		"ref":"content-audit",
+      "image":"image1.jpg",
+  		"tagline":"Be relevant",
+  		"description":"Visual Cues helps you create the right  content which directly affects how search engines index your pages. Simply put, we make your content work for your visitors.",
+  		"heading":"Intelligent content authoring",
+  		"summary":"Good content drives the best websites, being relevant not only gives you the edge over your competitors, but it makes the search engines sit up and take notice because the better your content , the easier it is for visitors to decide whether or not you have what they need on your website.",
+  		"cta":"Read more",
+  		"url":"content-auditing"
+  	},
+  	{
+  		"slide":"Analytics and tracking",
+  		"ref":"analytics",
+      "image":"image1.jpg",
+  		"tagline":"Knowledge is power",
+  		"description":"Be aware of your visitors’ habits and know what to prioritise and focus your online strategy on. knowing what works for your audience is always half the battle won.",
+  		"heading":"Turn the lights on",
+  		"summary":"Let your clients tell you what they want, literally . By activating ready made tools and adding a little bit of know how we can answer the age old question, ‘What are my customers looking for’. We can tell you how your customers are behaving on your website, from abandoned baskets to ineffective promotions.",
+  		"cta":"Tell me more",
+  		"url":"analytics"
+  	},
+  	{
+  		"slide":"User experience",
+  		"ref":"ux",
+      "image":"image1.jpg",
+  		"tagline":"Its a visual thing",
+  		"description":"A seamless website experience makes for happier customers who will frequent your website more often, make your website accessible, understandable and easy to use .",
+  		"heading":"Sell products, not headaches",
+  		"summary":"Simplifying your website is what we do at visual cues, this makes it easier for your visitors to navigate and browse your website, you would be surprised how the simplest of changes will make a huge impact on how long your visitors stay on your pages and more importantly , how many more return.",
+  		"cta":"Find out more",
+  		"url":"user-experience"
+  	},
+  	{
+  		"slide":"Search engine optimisation",
+  		"ref":"seo",
+      "image":"image1.jpg",
+  		"tagline":"Get to the front",
+  		"description":" Where do you stack up to your competion when you search the web on relevant search results that come up , our expertise in search engine behavior could be the tonic that provides a breakthrough for you ",
+  		"heading":"Dont be invisible",
+  		"summary":"Becoming visible is probably the most important aspect of having a website to get the most coverage and exposure in your sector , Visual Cues combines all aspect of web development knowledge to get you as high up the rankings as we can possibly get without paying money to a search engine.",
+  		"cta":"Book consultation",
+  		"url":"seo"
+  	},
+  	{
+  		"slide":"Website design and development",
+      "ref":"web-dev",
+      "image":"image1.jpg",
+  		"tagline":"We work to inspire you",
+  		"description":"Visual cues can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
+  		"heading":"Design, Develop, Deliver",
+  		"summary":"With Visual Cues, you are assured to get unique, beautifully structure designs to pick from which will have your own individual stamp of approval, we feed off your creative direction to create fulfilling pages, banners and email campaigns which we then develop into great marketing tools for your organisations.",
+  		"cta":"Book consultation",
+  		"url":"web-development"
+  	}
+  ],
+  "sitemap":[
+    {
+      "label":"Home",
+      "icon":"home.png",
+      "url":"#featured"
+    },
+    {
+      "label":"About",
+      "icon":"",
+      "url":""
+    },
+    {
+      "label":"Services",
+      "icon":"",
+      "url":""
+    },
+    {
+      "label":"Portfolio",
+      "icon":"",
+      "url":""
+    },
+    {
+      "label":"Store",
+      "icon":"",
+      "url":""
+    },
+    {
+      "label":"Contact",
+      "icon":"",
+      "url":""
+    }
+  ]
+
+}

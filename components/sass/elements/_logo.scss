@@ -1,0 +1,26 @@
+.navbar-brand {
+	.vc &{
+		&.logo {
+		    width: 80px;
+		    margin: 5px 0 5px 10px;
+		    height: 40px;
+		    background-size: cover;
+		    display: block;
+		    background: url('../images/visual-cues-logo-mob.svg') no-repeat;
+		    padding:0;
+		    @media all and (min-width:768px){
+			    height: 80px;
+			    width: 120px;
+				background: url('../images/visual-cues-logo.svg') no-repeat;
+		    }
+			.logo-txt{
+				display:none;
+			}
+		}
+	}			
+	.inbody.vc &{			
+		&.logo {
+			height: 40px;
+		}
+	}
+}

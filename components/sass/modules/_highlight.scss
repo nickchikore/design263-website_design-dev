@@ -1,0 +1,15 @@
+
+.highlight{
+	margin:0 auto;
+	&.pink, &.orange, &.cocoa, &.purple{
+		color:white;
+		p,h2,blockquote{
+			color:inherit;
+		}
+		a{
+			color:lighten($hot-pink,30);
+			text-decoration: underline;
+
+		}
+	}
+}

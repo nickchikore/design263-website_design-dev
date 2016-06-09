@@ -1,0 +1,31 @@
+/*form{
+	line-height: 32px;
+	font-family: $font-2;
+	color:#a5a5a5;
+	padding: 40px 0;
+	label{
+		line-height: inherit;
+		&.col-xs-12{
+			text-align: left;
+		}
+		&.col-md-4{
+			//text-align:right;
+		}
+
+	}
+	input[type="text"],input[type="email"],input[type="tel"],select{
+		height: 36px;
+		padding: 2px;
+		border: 1px solid $lime;
+		border-radius: 4px;
+		background: #f2f2f2;
+	}
+	select{}
+	button, submit{}
+	.form-row{
+		margin: 12px 2px;
+	}
+	textarea{}
+}
+
+*/

@@ -1,0 +1,23 @@
+footer{
+	background: $hot-pink;
+	padding:30px;
+	color: $white;
+	p {
+	    float: left;
+	    padding: 0;
+	    color: inherit;
+	}
+
+	nav.navbar.navbar-default {
+		background-color:transparent;
+		border: none;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+	    padding: 0 15px;
+	    color: $white;
+	    &:hover{
+		    color: $orange;
+	    }
+	}
+}

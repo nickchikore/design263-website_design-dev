@@ -1,0 +1,45 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300|Josefin+Sans:600|Julius+Sans+One|Marcellus+SC|Sacramento);
+
+$font-size-1:12px;
+$font-size-2:14px;
+$font-size-3:18px;
+$font-size-4:30px;
+$font-size-5:36px;
+$thin-font:100;
+$thick-font:300;
+
+$off-black:#0B0A0A;
+$hot-pink:#E43C6D;
+$white: #fff;
+
+$lime:#99A090;
+$cocoa:#4e4848;
+$blue:#6693a1;
+$orange:#ff9e7b;
+$purple:#a665c1;
+
+$heading-font-large: $font-size-5;
+$heading-font-medium: $font-size-4;
+$heading-font-regular: $font-size-3;
+$paragraph-font-large: $font-size-2;
+$paragraph-font-regular: $font-size-1;
+
+//$font-1: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L",serif;
+//$font-2: "Gill Sans", "Gill Sans MT", sans-serif;
+
+
+//fonts and typeface
+$font-1: 'Marcellus SC', serif;
+$font-2: 'Raleway', sans-serif;
+$font-3: 'Josefin Sans', sans-serif;
+$font-4: 'Julius Sans One', sans-serif;
+$font-5: 'Sacramento', cursive;
+
+$display-font:$font-1;
+$copy-font:$font-3;
+$headings-font:$font-1;
+$subhead-font:$font-4;
+$cursive: $font-5;
+
+
+$font-color:$off-black;

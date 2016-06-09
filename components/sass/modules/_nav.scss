@@ -1,0 +1,57 @@
+header{
+	opacity:0;
+	transition:200ms all ease-out;
+}
+.navbar-default.vc{
+	border:none;
+	background: rgba(255, 255, 255, 0.85);
+	transition: all 400ms ease-out;
+	&.inbody{
+		//background: transparent;
+		background: rgba(196, 204, 185, 0.85);		
+		.navbar-nav {
+			margin-top: 0;
+		}
+	}
+	.navbar-nav {
+		margin-top: 20px;
+		> .active {
+			> a, > a:hover,> a:focus{
+				background: none;
+				color:$hot-pink;
+				&:after{
+					background: #880000;
+					content:'';
+					width:100%;
+					height:3px;
+					display: block;
+				}
+			}
+		}
+		a{
+			color: #451919;
+			font-weight: 500;
+		}
+	}
+	.dropdown-toggle{
+		background: none;
+	}
+	.navbar-toggle{
+			border-color: lighten($hot-pink, 10);
+			background-color: $white; 
+			border-radius: 0px;
+			margin-right: 10px;
+			.icon-bar{
+				background-color: $hot-pink;
+			}
+		
+		&.collapsed{
+			border-color: darken($hot-pink, 10);
+			background-color: $hot-pink; 
+			.icon-bar{
+				background-color: $white;
+			}
+		}
+	}
+}
+
