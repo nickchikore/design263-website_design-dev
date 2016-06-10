@@ -1,26 +1,59 @@
 .navbar-brand {
-	.vc &{
 		&.logo {
 		    width: 80px;
 		    margin: 5px 0 5px 10px;
 		    height: 40px;
 		    background-size: cover;
 		    display: block;
-		    background: url('../images/visual-cues-logo-mob.svg') no-repeat;
 		    padding:0;
+				position: relative;
+				overflow: hidden;
+				&:before{
+					content: ' ';
+					display: block;
+					height: 80px;
+					background: url("../images/logos/design263-logo.png") no-repeat;
+					background-position: center;
+					background-size: contain;
+				}
+				&:after{
+					content: ' ';
+					display: none;
+					height: 40px;
+					background: url("../images/logos/design263-logo-inverted.png") no-repeat;
+					background-position: center;
+					background-size: contain;
+					position: absolute;
+					top: 0;
+					left: 0;
+					width: 50px;
+				}
 		    @media all and (min-width:768px){
 			    height: 80px;
 			    width: 120px;
-				background: url('../images/visual-cues-logo.svg') no-repeat;
 		    }
 			.logo-txt{
 				display:none;
 			}
 		}
-	}			
-	.inbody.vc &{			
+	.inbody.vc &{
 		&.logo {
 			height: 40px;
+			width:200px;
+			&:before{
+				display:none;
+			}
+			&:after{
+				display: block;
+			}
+			.logo-txt{
+				display:block;
+				padding-left: 52px;
+		    line-height: 40px;
+		    text-transform: lowercase;
+		    font-weight: 100;
+		    letter-spacing: .025em;
+		    color: $white;			}
 		}
 	}
 }

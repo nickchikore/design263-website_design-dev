@@ -1,16 +1,28 @@
 header{
-	opacity:0;
-	transition:200ms all ease-out;
+	//opacity:0;
+	//transition:200ms all ease-out;
 }
 .navbar-default.vc{
 	border:none;
-	background: rgba(255, 255, 255, 0.85);
+	background: rgba($white, 0.85);
 	transition: all 400ms ease-out;
 	&.inbody{
 		//background: transparent;
-		background: rgba(196, 204, 185, 0.85);		
+		background: rgba($blue2, 0.85);
+
 		.navbar-nav {
 			margin-top: 0;
+			> .active {
+				> a, > a:hover,> a:focus{
+					color:$white;
+					&:after{
+						background: $white;//#880000;
+					}
+				}
+			}
+			a{
+				color: rgba(0, 12, 16, 0.5);
+			}
 		}
 	}
 	.navbar-nav {
@@ -18,9 +30,9 @@ header{
 		> .active {
 			> a, > a:hover,> a:focus{
 				background: none;
-				color:$hot-pink;
+				color:$primary-color;
 				&:after{
-					background: #880000;
+					background: $primary-color;//#880000;
 					content:'';
 					width:100%;
 					height:3px;
@@ -29,7 +41,7 @@ header{
 			}
 		}
 		a{
-			color: #451919;
+			color: $primary-color;//#451919;
 			font-weight: 500;
 		}
 	}
@@ -37,21 +49,20 @@ header{
 		background: none;
 	}
 	.navbar-toggle{
-			border-color: lighten($hot-pink, 10);
-			background-color: $white; 
+			border-color: lighten($primary-color, 10);
+			background-color: $white;
 			border-radius: 0px;
 			margin-right: 10px;
 			.icon-bar{
-				background-color: $hot-pink;
+				background-color: $primary-color;
 			}
-		
+
 		&.collapsed{
-			border-color: darken($hot-pink, 10);
-			background-color: $hot-pink; 
+			border-color: darken($primary-color, 10);
+			background-color: $primary-color;
 			.icon-bar{
 				background-color: $white;
 			}
 		}
 	}
 }
-

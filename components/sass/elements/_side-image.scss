@@ -4,8 +4,8 @@
   $dark-gray: #333 !default;
   $large-screen: 53.75em !default;
   $base-font-color: $dark-gray !default;
-  $side-image-background-top: $hot-pink;
-  $side-image-background-bottom: darken($hot-pink,10);
+  $side-image-background-top: $primary-color;
+  $side-image-background-bottom: darken($primary-color,10);
   $side-image-content-background: #F9F9F9;
   $side-image-border: 1px solid darken(transparentize($side-image-background-bottom, 0.8), 30%);
 

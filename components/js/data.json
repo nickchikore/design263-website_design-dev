@@ -9,10 +9,10 @@ var data = {
       "subIndex":" ",
       "pageTitle":"Web development consultants",
       "keywords":"web development, web developer, web design, search engine optimisation, Analytics and tracking,User experience , Web content auditing, web content authoring",
-      "description":"Visual cues specialises in web consultancy, we focus on achieving what your website was intended to do by focusing on fixing what it is not currently doing for you",
+      "description":"Design263 specialises in web consultancy, we focus on achieving what your website was intended to do by focusing on fixing what it is not currently doing for you",
       "PageHeading":"We make web development easy peezy",
       "PageMainSubheading":"Take a leaf out of our book.",
-      "MainSeoContent":"Visual Cues takes websites you currently have and builds on that. Having a website with irrelevant content is detrimental to your business objectives unless you are intentioally setting up to fail.Visual Cues takes your lead, your ideas and your ethos and we build unique solutions for you based on what your pages are actually mean to achieve by simplifying how you approach the web."
+      "MainSeoContent":"Design263 takes websites you currently have and builds on that. Having a website with irrelevant content is detrimental to your business objectives unless you are intentioally setting up to fail.Design263 takes your lead, your ideas and your ethos and we build unique solutions for you based on what your pages are actually mean to achieve by simplifying how you approach the web."
     },
     {
       "pagename":"Website content auditing",
@@ -21,12 +21,12 @@ var data = {
       "index":"1",
       "url":"content-auditing",
       "subIndex":" ",
-      "pageTitle":"Website content auditing - Visual Cues",
+      "pageTitle":"Website content auditing - Design263",
       "keywords":" Web content auditing, web content authoring, content management",
-      "description":"Visual cues will help you compose relevant content which get the right clients and customers viewing the right pages on your website. Our content authors have a wealth of experience making content that paints a picture that is clear and concise",
+      "description":"Design263 will help you compose relevant content which get the right clients and customers viewing the right pages on your website. Our content authors have a wealth of experience making content that paints a picture that is clear and concise",
       "PageHeading":"Create relevant engaging content",
       "PageMainSubheading":"Give the people what they want",
-      "MainSeoContent":"Visual cues takes what you currently have and builds on it, it is not worth much just having a website with content which does not create the desire effect. We take your lead on what you need for your website on the basis of what you currently have on your website and redefine it to achieve your online objectives."
+      "MainSeoContent":"Design263 takes what you currently have and builds on it, it is not worth much just having a website with content which does not create the desire effect. We take your lead on what you need for your website on the basis of what you currently have on your website and redefine it to achieve your online objectives."
     },
     {
       "pagename":"Search Engine Optimisation",
@@ -35,9 +35,9 @@ var data = {
       "index":"2",
       "url":"seo",
       "subIndex":" ",
-      "pageTitle":"Search Engine Optimisation - Visual Cues",
+      "pageTitle":"Search Engine Optimisation - Design263",
       "keywords":" Search Engine Optimisation, seo ",
-      "description":"Visual cues will not only set you up the right way , we teach you how to continue being visible, search engine optimisation was never meant to be difficult. ",
+      "description":"Design263 will not only set you up the right way , we teach you how to continue being visible, search engine optimisation was never meant to be difficult. ",
       "PageHeading":"Become more visible",
       "PageMainSubheading":"",
       "MainSeoContent":"Over the years the world wide web has become more sophisticates and the way in which we view web content has changed and become more complicated as we all have individual tastes. this however has meant that search engines and they way they look at what is relevant has had to evolve to serve up the right content which is right for our individual and unique consumers values, in essence , search engines now view our websites our web pages in a much more simplistic, and are now able to tell the difference between what is good relevant content, and what is useless and time wasting rubbish.A simple consultation will leave your web pages in either in a better state as we will make recommendations as to how they can be presented better so you can move closer to the top listings, or leave you more secure in the knowledge that your website works just fine and there is nothing more you need to do except wait and see yourself climb to the top of the search  engine"
@@ -49,11 +49,11 @@ var data = {
       "index":"2",
       "url":"analytics",
       "subIndex":" ",
-      "pageTitle":"Analytics and tracking - Visual Cues",
+      "pageTitle":"Analytics and tracking - Design263",
       "keywords":" Google analytics, analytics, google tracking, tracking scripts",
       "description":"Be aware of your visitors’ habits and know what to prioritise and focus your online strategy on. knowing what works for your audience is always half the battle won.",
       "PageMainSubheading":"Give the people what they want",
-      "MainSeoContent":"Knowing what a consumer wants puts you in a very advantageous position, it creates a predictable certainty that gives you an edge over your competitors and those around you because it makes consumers feel special, like they belong on your page, like you have struck a connection that the other websites have not, because you shave the thing that they want, or at least something very close to it.Visual cues can help your web pages be set up in such a way that your visitors will leave a telling story of why some things on your website work, and why others may have been great ideas in theory, but they just did not work in practice, we will help you analyse your visitors’ habits on your website and point out what to lead with and invest more off, and look for solutions to why some ideas just don’t work in practice."
+      "MainSeoContent":"Knowing what a consumer wants puts you in a very advantageous position, it creates a predictable certainty that gives you an edge over your competitors and those around you because it makes consumers feel special, like they belong on your page, like you have struck a connection that the other websites have not, because you shave the thing that they want, or at least something very close to it.Design263 can help your web pages be set up in such a way that your visitors will leave a telling story of why some things on your website work, and why others may have been great ideas in theory, but they just did not work in practice, we will help you analyse your visitors’ habits on your website and point out what to lead with and invest more off, and look for solutions to why some ideas just don’t work in practice."
     },
     {
       "pagename":"UX(user experience)",
@@ -62,7 +62,7 @@ var data = {
       "index":"2",
       "url":"user-experience",
       "subIndex":" ",
-      "pageTitle":"User Experience - Visual Cues",
+      "pageTitle":"User Experience - Design263",
       "keywords":" Web content auditing, web content authoring, content management",
       "description":"A seamless website experience makes for happier customers who will frequent your website more often, make your website accessible, understandable and easy to use .",
       "PageMainSubheading":"This maybe be the day when your website is just right",
@@ -75,12 +75,12 @@ var data = {
       "index":"2",
       "url":"web-development",
       "subIndex":" ",
-      "pageTitle":"Website design and development - Visual Cues",
+      "pageTitle":"Website design and development - Design263",
       "keywords":" Website development, web design, wireframes, webpage mockup, cms",
-      "description":"Visual cues can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
+      "description":"Design263 can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
       "PageHeading":"We take awesome designs",
       "PageMainSubheading":"We development inspiring engaging websites",
-      "MainSeoContent":"Web development is about taking a simple idea and creating engaging solutions which a inspire reaction, like anything else , the reaction you get is determined by how you set out to achieve your objective. At visual cues our goal is to create websites and applications that move people, and we do it right everytime, taking concepts you put infront of us and delivering fully functional , robust solutions to meet your objectives."
+      "MainSeoContent":"Web development is about taking a simple idea and creating engaging solutions which a inspire reaction, like anything else , the reaction you get is determined by how you set out to achieve your objective. At Design263 our goal is to create websites and applications that move people, and we do it right everytime, taking concepts you put infront of us and delivering fully functional , robust solutions to meet your objectives."
     },
     {
       "pagename":"Services",
@@ -94,7 +94,7 @@ var data = {
       "description":"Design and build your web project from ground up, know what your clients like and what their habits are and stay visible to search engine.",
       "PageHeading":"We can transform your website",
       "PageMainSubheading":"All you have to do is ask",
-      "MainSeoContent":"Whether you have a website or you need a new one, we can help you today. From concept mockups and wireframing in the design process, to creating robust backend admin solutions or store procedures, we have the know-how, the resources and the specialists who can put you over the line, Visual cues is a design agency that can take you to your destination. "
+      "MainSeoContent":"Whether you have a website or you need a new one, we can help you today. From concept mockups and wireframing in the design process, to creating robust backend admin solutions or store procedures, we have the know-how, the resources and the specialists who can put you over the line, Design263 is a design agency that can take you to your destination. "
     }
   ],
   "clients" : [
@@ -115,7 +115,7 @@ var data = {
       "features": "Responsive html5 banners, dynamic reusable code, Full stack browser compatible",
       "duration": "6 months",
       "caseStudy": {
-          "caseSummary": "Tesco commissioned us to build their new HTML5 banners as part of their push for a responsive website. For six months Visual Cues were part of the team that took the lead in the production phase of the Tesco.com website banners and delivered all them straight onto the website .",
+          "caseSummary": "Tesco commissioned us to build their new HTML5 banners as part of their push for a responsive website. For six months Design263 were part of the team that took the lead in the production phase of the Tesco.com website banners and delivered all them straight onto the website .",
           "caseFeatures": []
       },
       "featured": {
@@ -447,7 +447,7 @@ var data = {
   		"ref":"content-audit",
       "image":"image1.jpg",
   		"tagline":"Be relevant",
-  		"description":"Visual Cues helps you create the right  content which directly affects how search engines index your pages. Simply put, we make your content work for your visitors.",
+  		"description":"Design263 helps you create the right  content which directly affects how search engines index your pages. Simply put, we make your content work for your visitors.",
   		"heading":"Intelligent content authoring",
   		"summary":"Good content drives the best websites, being relevant not only gives you the edge over your competitors, but it makes the search engines sit up and take notice because the better your content , the easier it is for visitors to decide whether or not you have what they need on your website.",
   		"cta":"Read more",
@@ -471,7 +471,7 @@ var data = {
   		"tagline":"Its a visual thing",
   		"description":"A seamless website experience makes for happier customers who will frequent your website more often, make your website accessible, understandable and easy to use .",
   		"heading":"Sell products, not headaches",
-  		"summary":"Simplifying your website is what we do at visual cues, this makes it easier for your visitors to navigate and browse your website, you would be surprised how the simplest of changes will make a huge impact on how long your visitors stay on your pages and more importantly , how many more return.",
+  		"summary":"Simplifying your website is what we do at Design263, this makes it easier for your visitors to navigate and browse your website, you would be surprised how the simplest of changes will make a huge impact on how long your visitors stay on your pages and more importantly , how many more return.",
   		"cta":"Find out more",
   		"url":"user-experience"
   	},
@@ -482,7 +482,7 @@ var data = {
   		"tagline":"Get to the front",
   		"description":" Where do you stack up to your competion when you search the web on relevant search results that come up , our expertise in search engine behavior could be the tonic that provides a breakthrough for you ",
   		"heading":"Dont be invisible",
-  		"summary":"Becoming visible is probably the most important aspect of having a website to get the most coverage and exposure in your sector , Visual Cues combines all aspect of web development knowledge to get you as high up the rankings as we can possibly get without paying money to a search engine.",
+  		"summary":"Becoming visible is probably the most important aspect of having a website to get the most coverage and exposure in your sector , Design263 combines all aspect of web development knowledge to get you as high up the rankings as we can possibly get without paying money to a search engine.",
   		"cta":"Book consultation",
   		"url":"seo"
   	},
@@ -491,9 +491,9 @@ var data = {
       "ref":"web-dev",
       "image":"image1.jpg",
   		"tagline":"We work to inspire you",
-  		"description":"Visual cues can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
+  		"description":"Design263 can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
   		"heading":"Design, Develop, Deliver",
-  		"summary":"With Visual Cues, you are assured to get unique, beautifully structure designs to pick from which will have your own individual stamp of approval, we feed off your creative direction to create fulfilling pages, banners and email campaigns which we then develop into great marketing tools for your organisations.",
+  		"summary":"With Design263, you are assured to get unique, beautifully structure designs to pick from which will have your own individual stamp of approval, we feed off your creative direction to create fulfilling pages, banners and email campaigns which we then develop into great marketing tools for your organisations.",
   		"cta":"Book consultation",
   		"url":"web-development"
   	}

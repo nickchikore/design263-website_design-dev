@@ -104,8 +104,8 @@
 // The mixin above should preferably be in a file of its own. Below is the code for the object that has the texture.
 
 .texture {
-  $texture-top-background: lighten($hot-pink, 1%);
-  $texture-bottom-background: darken($hot-pink, 10%);
+  $texture-top-background: lighten($primary-color, 1%);
+  $texture-bottom-background: darken($primary-color, 10%);
 
   .texture-normal {
     // gradient color 1, gradient color 2, gradient angle, texture-number, 0=inverted or 1=normal

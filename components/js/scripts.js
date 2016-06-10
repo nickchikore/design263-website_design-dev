@@ -12,9 +12,9 @@ function setupTemplates(){
 
     var cases = $('projectList').html(),
     projectInfo = Mustache.render(clients,data);
-    $('#caseStudy').append(caseInfo);
+    $('#caseStudy').append(projectInfo);
 
-    
+
 }
 
 $(document).ready(function() {
