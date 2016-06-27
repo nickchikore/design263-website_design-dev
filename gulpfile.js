@@ -11,14 +11,14 @@ var del = require('del');
 var runSequence = require('run-sequence');
 
 gulp.task('sass', function () {
-  return gulp.src('components/sass/*.scss') 
+  return gulp.src('components/sass/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('components/css/')) 
+    .pipe(gulp.dest('components/css/'))
     .pipe(browserSync.reload({
 	    stream: true
     }))
   });
-  
+
 gulp.task('browserSync', function() {
   browserSync.init({
     server: {
@@ -26,7 +26,7 @@ gulp.task('browserSync', function() {
     },
   })
 })
- 
+
 gulp.task('useref', function(){
   return gulp.src('components/*.html')
     .pipe(useref())
@@ -64,12 +64,12 @@ gulp.task('clean:public', function() {
 
 gulp.task('watch',['browserSync', 'sass'], function () {
 	gulp.watch('components/sass/*.scss', ['sass']);
-	gulp.watch('components/*.html', browserSync.reload); 
-	gulp.watch('components/js/*.js', browserSync.reload); 
+	gulp.watch('components/*.html', browserSync.reload);
+	gulp.watch('components/js/*.js', browserSync.reload);
 });
 
 gulp.task('build', function (callback) {
-  runSequence('clean:public', 
+  runSequence('clean:public',
     ['sass', 'useref', 'images', 'fonts'],
     callback
   )
@@ -80,5 +80,3 @@ gulp.task('default', function (callback) {
     callback
   )
 })
-
-

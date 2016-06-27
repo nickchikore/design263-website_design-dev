@@ -447,7 +447,7 @@ var data = {
   		"ref":"content-audit",
       "image":"image1.jpg",
   		"tagline":"Be relevant",
-  		"description":"Design263 helps you create the right  content which directly affects how search engines index your pages. Simply put, we make your content work for your visitors.",
+  		"description":"Design263 helps you create the right content which directly affects how search engines index your pages. Simply put, we make your content work for your visitors.",
   		"heading":"Intelligent content authoring",
   		"summary":"Good content drives the best websites, being relevant not only gives you the edge over your competitors, but it makes the search engines sit up and take notice because the better your content , the easier it is for visitors to decide whether or not you have what they need on your website.",
   		"cta":"Read more",
@@ -506,28 +506,38 @@ var data = {
     },
     {
       "label":"About",
-      "icon":"",
-      "url":""
+      "icon":"about.png",
+      "url":"about"
     },
     {
       "label":"Services",
-      "icon":"",
-      "url":""
+      "icon":"services.png",
+      "url":"services"
     },
     {
       "label":"Portfolio",
-      "icon":"",
-      "url":""
+      "icon":"portfolio.png",
+      "url":"portfolio"
     },
     {
       "label":"Store",
-      "icon":"",
-      "url":""
+      "icon":"shop.png",
+      "url":"shop"
     },
     {
       "label":"Contact",
-      "icon":"",
-      "url":""
+      "icon":"contact.png",
+      "url":"contact"
+    },
+    {
+      "label":"Terms",
+      "icon":"terms.png",
+      "url":"terms"
+    },
+    {
+      "label":"Privacy",
+      "icon":"privacy.png",
+      "url":"privacy"
     }
   ]
 

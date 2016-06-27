@@ -11,9 +11,9 @@
 				&:before{
 					content: ' ';
 					display: block;
-					height: 80px;
-					background: url("../images/logos/design263-logo.png") no-repeat;
-					background-position: center;
+					height: 70px;
+					background: url("../images/logos/logo.png") no-repeat;
+					background-position:0 center;
 					background-size: contain;
 				}
 				&:after{
@@ -29,12 +29,21 @@
 					width: 50px;
 				}
 		    @media all and (min-width:768px){
-			    height: 80px;
-			    width: 120px;
+					height: 70px;
+					width: 250px;
 		    }
-			.logo-txt{
-				display:none;
-			}
+				.logo-txt{
+					position: absolute;
+					top: 0;
+					left: 90px;
+					line-height: 70px;
+					font-size: 1.2em;
+					color:$primary-color;
+					text-transform: lowercase;
+				}
+		//	.logo-txt{
+			//	display:none;
+			//}
 		}
 	.inbody.vc &{
 		&.logo {
@@ -53,7 +62,12 @@
 		    text-transform: lowercase;
 		    font-weight: 100;
 		    letter-spacing: .025em;
-		    color: $white;			}
+		    color: $white;
+				position: relative;
+				top: auto;
+				left: auto;
+				font-size: 1em;
+			}
 		}
 	}
 }

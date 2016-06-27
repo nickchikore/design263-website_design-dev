@@ -10,9 +10,13 @@ function setupTemplates(){
     clientsInfo = Mustache.render(clients, data);
     $('#clients').append(clientsInfo);
 
-    var cases = $('projectList').html(),
-    projectInfo = Mustache.render(clients,data);
-    $('#caseStudy').append(projectInfo);
+/*    var cases = $('#projectList').html(),
+    projectInfo = Mustache.render(clients, data);
+    $('#caseStudy').append(projectInfo);*/
+
+    var feature = $('#servicesList').html(),
+    serviceInfo = Mustache.render(feature, data);
+    $('#our_services').append(serviceInfo);
 
 
 }
@@ -55,14 +59,16 @@ $(function() {
   var slideqty = $('#featured .item').length;
   var wheight = $(window).height(); //get the height of the window
   var randSlide = Math.floor(Math.random()*slideqty);
-
+  var hero = document.getElementById('featured');
   //Activate Scrollspy
   $('body').scrollspy({
     target: 'header .navbar',
     offset: topoffset
   });
 
-  $('#featured .item').eq(randSlide).addClass('active');
+  if(hero < 1){
+    $('#featured .item').eq(randSlide).addClass('active');
+  }
 
   $('.fullheight').css('height', wheight); //set to window tallness
 
@@ -100,6 +106,22 @@ $(function() {
 
   //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') ===
+      this.pathname.replace(/^\//,'') &&
+      location.hostname === this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top-topoffset+2
+        }, 500);
+        return false;
+      } //target.length
+    } //click function
+  }); //smooth scrolling
+
+  //Use smooth scrolling when clicking on navigation
+  $('#our_services a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') ===
       this.pathname.replace(/^\//,'') &&
       location.hostname === this.hostname) {

@@ -1,0 +1,64 @@
+<div class="carousel slide" id="featured" data-ride="carousel">
+  <ol class="carousel-indicators">
+      </ol>
+  <div class="carousel-inner fullheight">
+    <div class="item"><img src="images/hill-house.jpg" alt="isolated house on a hill">
+      <div class="banner-text dark col-xs-8 col-xs-offset-2 dark col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-3">
+        <p>
+          <span class="display">Don’t just aim to be the best option</span><span class="sub-text">, aim to become the only option though your user experience</span>
+        </p>
+      </div>
+    </div>
+    <div class="item"><img src="images/snow-sheep.jpg" alt="sheep in snow">
+      <div class="banner-text dark col-xs-8 col-xs-offset-2 dark col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-3">
+        <p>
+          <span class="display">who says we all do the same things online</span><span class="sub-text">, find out the different ways your clients use your website</span>
+        </p>
+      </div>
+    </div>
+    <div class="item"><img src="images/red-apple.jpg" alt="delicious apples">
+      <div class="banner-text dark col-xs-8 col-xs-offset-2 dark col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-3">
+        <p>
+          <span class="display">Be visible, don’t blend in</span><span class="sub-text">, dare to be different and become the obvious choice by setting up the right way</span>
+        </p>
+      </div>
+    </div>
+    <div class="item"><img src="images/black-chair.jpg" alt="nice leather chair">
+      <div class="banner-text dark col-xs-8 col-xs-offset-2 dark col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-3">
+        <p>
+          <span class="display">Don’t just aim to be the best option</span><span class="sub-text">, aim to become the only option through your users' experience</span>
+        </p>
+      </div>
+    </div>
+    <div class="item"><img src="images/face-pencils.jpg" alt="pencils">
+      <div class="banner-text dark col-xs-8 col-xs-offset-2 dark col-sm-4 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-3">
+        <p>
+          <span class="display">Stand out and shine bright</span><span class="sub-text">, show your true colors by having unique content and inspired ideas on your website</span>
+        </p>
+      </div>
+    </div>
+    <div class="item"><img src="images/workarea.jpeg" alt="black sheep in the midst of white sheep">
+      <div class="banner-text dark col-xs-8 col-xs-offset-2 dark col-sm-6 col-sm-offset-2 col-md-4 col-md-offset-1 col-lg-3">
+        <p>
+          <span class="display">We serve up a treat</span><span class="sub-text"> with inspiring, engaging websites that will whet the appetite.</span>			</p>
+      </div>
+    </div>
+  </div>
+
+  <a class="left carousel-control" href="#hero" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#hero" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-menu-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+<div class="carousel slide" id="featured" data-ride="carousel">
+  <div class="carousel-inner fullheight">
+    <div class="item"><img src="images/hill-house.jpg" alt="isolated house on a hill">
+
+    </div>
+  </div>
+</div>

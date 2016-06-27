@@ -2,6 +2,41 @@
 
 
 .page{
+  &.intro{
+    .summary{
+      //padding:50px 10px;
+    }
+    h1{
+      font-size: 40px;
+      font-weight:100;
+      color:$white;
+      text-shadow: -1px 2px 1px #333;
+      //display: none;
+    }
+  blockquote{
+        color:$white;
+        font-size: 4em;
+        line-height: 1em;
+        font-weight: 100;
+        text-shadow: -1px 2px 1px #333;
+
+    }
+    p{
+        font-size: 1.4em;
+        color:$white;
+    }
+    a{
+      padding:8px 25px ;
+      background: white;
+      border: none;
+      color: $blue2;
+      border-radius: 0;
+      &.btn{
+        width:100%;
+        margin: 5px auto;
+      }
+    }
+  }
   &.row{
     max-width:960px;
     margin:25px auto;
@@ -41,4 +76,5 @@
   &.texture{
 
   }
+
 }

@@ -20,7 +20,7 @@ $parallax-background-height: $parallax-window-height * 2;
   background: url("/img/woodarea.jpg") repeat;
   background-position: top;
   background-size: cover;
-  background-color: beige;
+  background-color: rgba($blue2,.4);
   height: $parallax-background-height;
   left: 0;
   position: absolute;

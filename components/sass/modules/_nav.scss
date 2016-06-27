@@ -1,15 +1,18 @@
 header{
 	//opacity:0;
 	//transition:200ms all ease-out;
-}
+
 .navbar-default.vc{
 	border:none;
-	background: rgba($white, 0.85);
+	background: rgba($white,1);//transparent;//
+	//background-image:linear-gradient(to bottom,rgba($white,.4) 0,rgba($white,.01) 80%);
 	transition: all 400ms ease-out;
+	//position: relative;
+
 	&.inbody{
 		//background: transparent;
-		background: rgba($blue2, 0.85);
-
+		background: rgba($blue2, 0.95);
+		position: fixed;
 		.navbar-nav {
 			margin-top: 0;
 			> .active {
@@ -65,4 +68,5 @@ header{
 			}
 		}
 	}
+}
 }
