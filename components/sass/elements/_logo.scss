@@ -1,6 +1,6 @@
 .navbar-brand {
 		&.logo {
-		    width: 80px;
+		    width: 150px;
 		    margin: 5px 0 5px 10px;
 		    height: 40px;
 		    background-size: cover;
@@ -11,9 +11,9 @@
 				&:before{
 					content: ' ';
 					display: block;
-					height: 70px;
+					height: 40px;
 					background: url("../images/logos/logo.png") no-repeat;
-					background-position:0 center;
+					background-position:5px center;
 					background-size: contain;
 				}
 				&:after{
@@ -29,15 +29,16 @@
 					width: 50px;
 				}
 		    @media all and (min-width:768px){
-					height: 70px;
-					width: 250px;
+					height: 40px;
+					width: 150px;
+					margin-left: 0!important;
 		    }
 				.logo-txt{
 					position: absolute;
 					top: 0;
-					left: 90px;
-					line-height: 70px;
-					font-size: 1.2em;
+					left: 50px;
+					line-height: 45px;
+					font-size: 1em;
 					color:$primary-color;
 					text-transform: lowercase;
 				}
@@ -49,6 +50,7 @@
 		&.logo {
 			height: 40px;
 			width:200px;
+			margin-left: 0;
 			&:before{
 				display:none;
 			}

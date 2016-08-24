@@ -1,0 +1,40 @@
+<div class="page be-white">
+  <div class="container">
+  <div class="spacer"></div>
+  <div class="col-md-offset-2">
+    <div class="col-md-4">
+      <h3 title="">Who we are</h3>
+      <p>Design263 is a web development consultancy based in Bedford, Bedfordshire. We offer web development and social media solutions to creative agencies and businesses alike.
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3 title="">What we do</h3>
+      <p>Design263 brings experience and know how to your web projects.Our services include intelligent web content auditing, search engine optimisation, UI design, extensive tracking and analytics auditing as well as general website build and maintenance .
+      </p>
+    </div>
+    <div class="col-md-4">
+      <h3 title="">Our approach</h3>
+      <blockquote>Always aspire to inspire everyone</blockquote>
+      <p>
+        Design263 services are all bespoke, as our client all have different objectives, we look at each new project as a unique challenge, and we use our years of experience to produce creative, exciting and engaging solutions.
+      </p>
+    </div>
+    <div class="col-md-5">
+      <h3 title="">Become part of the network</h3>
+      <p>
+        <a href="#">Facebook</a>
+        <a href="#">Twitter</a>
+        <a href="#">Instagram</a>
+        <a href="#">Google+</a>
+      </p>
+    </div>
+    <div class="col-md-7">
+      <h3 title="">Some of our clients</h3>
+      <p>Here are just a few projects we have worked on </p>
+      <div id="clients">
+
+      </div>
+    </div>
+	</div>
+  </div>
+</div>

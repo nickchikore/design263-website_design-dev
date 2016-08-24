@@ -58,9 +58,49 @@
 }
 
 #featured .item{
-  background-size: cover; 
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
   height: 100%;
+}
+
+#our_services{
+  position: absolute;
+  top: auto;
+  bottom: 0;
+  //margin-left: -15px;
+  font-size:12px;
+  text-align:left;
+  padding: 0;
+  background: white;
+  display:none;
+  @include media(769px) {
+    display:block;
+  }
+  p{
+    float: left;
+    margin: 0;
+    display: inline-block;
+    padding: 9px;
+    font-family:$font-2;
+    background-color: #0c6eba;//#00a8e6;
+  }
+  ul{
+    max-height:250px;
+    float: left;
+    display: inline-block;
+    li {
+      float:left;
+      a{
+        font-family:$font-2;
+        font-size:12px;
+        padding:8px 15px;
+        &:hover{
+          text-decoration: underline;
+          color:#0c6eba;
+        }
+      }
+    }
+  }
 }

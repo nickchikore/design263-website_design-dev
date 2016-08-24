@@ -29,7 +29,7 @@ header{
 		}
 	}
 	.navbar-nav {
-		margin-top: 20px;
+		//margin-top: 20px;
 		> .active {
 			> a, > a:hover,> a:focus{
 				background: none;
@@ -46,6 +46,16 @@ header{
 		a{
 			color: $primary-color;//#451919;
 			font-weight: 500;
+			font-family:$font-1;
+			&.cta.btn {
+			    padding: 5px 15px;
+			    margin: 10px;
+			    background: #0c6eba;
+			    color: white;
+					&:hover{
+						background:$primary-color;
+					}
+			}
 		}
 	}
 	.dropdown-toggle{

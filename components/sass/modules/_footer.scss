@@ -1,7 +1,16 @@
 footer{
 	background: $primary-color;
-	padding:30px;
+	padding:0;
 	color: $white;
+	.content{
+		padding: 0;
+    margin: 0;
+		.row{
+			padding: 0;
+			margin: 0;
+		}
+	}
+
 	p {
 	    float: left;
 	    padding: 0;
@@ -20,4 +29,155 @@ footer{
 		    color: $orange;
 	    }
 	}
+
+	.services,.infoPages , .ecard{
+    padding: 20px;
+	}
+
+	p.company-reg {
+	    text-align: right;
+	}
+
+	.companyInfo p {
+	    font-size: 12px;
+	    margin: 0;
+	}
+
+	.companyInfo {
+	    background: #0c6eba;
+	    overflow: hidden;
+	    clear: both;
+	    padding: 10px;
+	    color: #a5a5a5;
+	}
+
+	.ecard{
+		a {
+			 font-size: 0;
+			 width: 32px;
+			 height: 32px;
+			 display: inline-block;
+			 margin-right: 1em;
+			 background-size: contain;
+			 overflow: hidden;
+			 &.facebook {
+					 background-image: url(../images/graphics/png/square-facebook-512.png);
+			 }
+			 &.twitter {
+					 background-image: url(../images/graphics/png/square-twitter-512.png);
+			 }
+			 &.googleplus {
+					 background-image: url(../images/graphics/png/square-googleplus-512.png);
+			 }
+			 &.instagram {
+					 background-image: url(../images/graphics/png/square-instagram-512.png);
+			 }
+			 &.youtube {
+					 background-image: url(../images/graphics/png/square-youtube-512.png);
+			 }
+		}
+		p {
+		  clear: both;
+		}
+	}
+}
+
+
+footer:before {
+	content: ' ';
+	display: block;
+	height: 20px;
+}
+footer .nav>li>a, footer .timeline-Header-title,p.timeline-Tweet-text {
+    color: #fff;
+}
+
+footer .nav>li , footer p{
+    font-family: "Raleway", sans-serif;
+    text-align: left;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+	background-color: transparent;
+}
+
+
+span.TweetAuthor-screenName.Identity-screenName, span.TweetAuthor-name.Identity-name.customisable-highlight {
+    position: relative;
+    left: 30px;
+}
+.timeline-Tweet-brand.u-floatRight {
+    float: left!important;
+    font-size: 30px;
+}
+.timeline-Tweet-brand .Icon {
+    //background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg…-.038-1.693%202.558-1.847%204.778-4.15%206.532-6.774z%22%2F%3E%3C%2Fsvg%3E);
+}
+.Icon--twitter {
+    width: 1.25em;
+    //background-image: url(data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg…-.038-1.693%202.558-1.847%204.778-4.15%206.532-6.774z%22%2F%3E%3C%2Fsvg%3E);
+}
+span.TweetAuthor-screenName.Identity-screenName, span.TweetAuthor-name.Identity-name.customisable-highlight {
+    position: relative;
+    left: 10px;
+}
+span.TweetAuthor-avatar.Identity-avatar {
+    display: none;
+}
+
+iframe .TweetAuthor-link{
+	color: #c0fffe!important;
+}
+iframe .TweetAuthor-screenName{
+	color: #91fdfa!important;
+}
+iframe img.Avatar{
+	display:none;
+}
+iframe .TweetAuthor-link.Identity.u-linkBlend span{
+	    color: #c0fffe;
+}
+iframe .TweetAuthor-screenName.Identity-screenName {
+	    color: #91fdfa!important;
+}
+.SandboxRoot.env-bp-min .timeline-Tweet-text{
+	color: white;
+	font-family: "Raleway", sans-serif;
+}
+.TweetAuthor-screenName {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 100;
+    width: 100px;
+    display: inline-block;
+}
+.TweetAuthor-name {
+    font-size: 1em;
+    line-height: 1em;
+    font-weight: 500;
+		color: #91fdfa!important;
+
+}
+.Identity-screenName{
+		color: #c0fffe!important;
+
+}
+p.timeline-Tweet-text a {
+    color: #c0fffe!important;
+}
+.SandboxRoot.env-bp-min .TweetAuthor-avatar {
+    display: none;
+}
+.timeline-Tweet-brand {
+    font-size: 30px;
+    float: left!important;
+}
+.timeline-Tweet-metadata {
+    float: none;
+    margin-top: 0;
+}
+.SandboxRoot.env-bp-min .timeline-Tweet-text {
+    margin: 0 0;
+}
+.timeline-Tweet:hover {
+    background-color: none;
 }

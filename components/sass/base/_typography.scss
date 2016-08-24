@@ -117,3 +117,14 @@ hr {
   border-top: 0;
   margin: $base-spacing 0;
 }
+a.cta {
+  color: white;
+  font-weight: bold;
+  letter-spacing: .02em;
+	border: 1px solid;
+	padding: 8px;
+	&:hover, &:active {
+	    text-decoration: none;
+	    color: #104c90;
+	}
+}

@@ -167,7 +167,7 @@ var data = {
       "type": "Design and Build",
       "category": "website development",
       "index": "3",
-      "url": "http://www.1st-base-entertainment.com",
+      "url": "http://www.firstbaseentertainment.com",
       "scale": "Medium",
       "services": "website concept and wireframing, web consultancy, copy writing, user experience concept,website templating and design, search engine optimisation ",
       "keywords": "Portfolio website, marketing and social branding",
@@ -443,7 +443,7 @@ var data = {
   ],
   "feature" : [
   	{
-  		"slide":"Web content auditing",
+  		"slide":"Content auditing",
   		"ref":"content-audit",
       "image":"image1.jpg",
   		"tagline":"Be relevant",
@@ -454,7 +454,7 @@ var data = {
   		"url":"content-auditing"
   	},
   	{
-  		"slide":"Analytics and tracking",
+  		"slide":"Analytics/tracking",
   		"ref":"analytics",
       "image":"image1.jpg",
   		"tagline":"Knowledge is power",
@@ -465,7 +465,7 @@ var data = {
   		"url":"analytics"
   	},
   	{
-  		"slide":"User experience",
+  		"slide":"UI design",
   		"ref":"ux",
       "image":"image1.jpg",
   		"tagline":"Its a visual thing",
@@ -487,7 +487,18 @@ var data = {
   		"url":"seo"
   	},
   	{
-  		"slide":"Website design and development",
+  		"slide":"Website development",
+      "ref":"web-dev",
+      "image":"image1.jpg",
+  		"tagline":"We work to inspire you",
+  		"description":"Design263 can transform even the most boring uninspiring website and create an inspired piece of art that will not only visual capture imaginations but propel your business to new heights online ",
+  		"heading":"Design, Develop, Deliver",
+  		"summary":"With Design263, you are assured to get unique, beautifully structure designs to pick from which will have your own individual stamp of approval, we feed off your creative direction to create fulfilling pages, banners and email campaigns which we then develop into great marketing tools for your organisations.",
+  		"cta":"Book consultation",
+  		"url":"web-development"
+  	},
+  	{
+  		"slide":"Social media marketing",
       "ref":"web-dev",
       "image":"image1.jpg",
   		"tagline":"We work to inspire you",
@@ -502,43 +513,528 @@ var data = {
     {
       "label":"Home",
       "icon":"home.png",
-      "url":"#featured"
+      "url":"http://www.design263"
     },
     {
       "label":"About",
       "icon":"about.png",
-      "url":"about"
+      "url":"http://www.design263#about"
     },
     {
       "label":"Services",
       "icon":"services.png",
-      "url":"services"
+      "url":"http://www.design263#services"
     },
     {
       "label":"Portfolio",
       "icon":"portfolio.png",
-      "url":"portfolio"
+      "url":"http://www.design263#portfolio"
     },
     {
       "label":"Store",
       "icon":"shop.png",
-      "url":"shop"
+      "url":"http://www.design263/shop"
     },
     {
       "label":"Contact",
       "icon":"contact.png",
-      "url":"contact"
+      "url":"http://www.design263/contact"
     },
     {
       "label":"Terms",
       "icon":"terms.png",
-      "url":"terms"
+      "url":"http://www.design263/terms"
     },
     {
       "label":"Privacy",
       "icon":"privacy.png",
-      "url":"privacy"
+      "url":"http://www.design263/privacy"
     }
-  ]
+  ],
+  "contact":[
+    {
+      "social-media":[
+        {
+          "ref":"Facebook",
+          "icon":"facebook.png",
+          "url":"privacy"
+        },
+        {
+          "ref":"Instagram",
+          "icon":"facebook.png",
+          "url":"privacy"
+        },
+        {
+          "ref":"Twitter",
+          "icon":"facebook.png",
+          "url":"privacy"
+        },
+        {
+          "ref":"Google+",
+          "icon":"facebook.png",
+          "url":"privacy"
+        }
+      ]
+    },
+    {
+      "label":"Email",
+      "icon":"mail.png",
+      "url":"privacy"
+    },
+    {
+      "label":"telephone",
+      "icon":"phone.png",
+      "url":"privacy"
+    },
+  ],
 
+  "work":[
+    {
+      "ref":"print",
+      "keywords":["print design", "digital print", "stationery", "flyers", "posters"],
+      "description":"Design263 has a wealth of experience creating material for print. Our catalogue of work speaks for itself and our way of working for our clients makes its more efficient , and we offer competitive packages for all your print situations.",
+      "category":[
+        {
+          "type":"Marketing materials",
+          "catalogue":[
+            {
+              "designation":"nightlife",
+              "company":"first base entertainment",
+              "thumb":"flyer-auction-room-sessions_thumb.jpg",
+              "image":"flyer-auction-room-sessions.jpg",
+              "attr":["flyer", "print design", "leisure"]
+            },
+            {
+              "designation":"church",
+              "company":"International house of prayer",
+              "thumb":"flyer-ihop_thumb.jpg",
+              "image":"flyer-ihop.jpg",
+              "attr":["flyer", "print design", "spiritual"]
+            },
+            {
+              "designation":"business",
+              "company":"Design263",
+              "thumb":"flyer-design263-consultancy_thumb.jpg",
+              "image":"flyer-design263-consultancy.jpg",
+              "attr":["flyer", "print design", "business"]
+            },
+            {
+              "designation":"business",
+              "company":"AfroDeliver",
+              "thumb":"flyer-afrodeliver_thumb.jpg",
+              "image":"flyer-afrodeliver_thumb.jpg",
+              "attr":["flyer", "print design", "business"]
+            }
+          ]
+        },
+        {
+          "type":"Business stationery",
+          "catalogue":[
+            {
+              "designation":"music management",
+              "company":"Luke Masih management",
+              "thumb":"bcard-luke-masih_thumb.jpg",
+              "image":"bcard-luke-masih.jpg",
+              "attr":["stationery", "print design", "business"]
+            },
+            {
+              "designation":"news platform",
+              "company":"Zimnut ltd",
+              "thumb":"bcard-zimnut_thumb.jpg",
+              "image":"bcard-zimnut.jpg",
+              "attr":["stationery", "print design", "news"]
+            },
+            {
+              "designation":"business",
+              "company":"1st base entertainment",
+              "thumb":"bcard-1stbaseEnt-consultancy_thumb.jpg",
+              "image":"bcard-1stbaseEnt-consultancy.jpg",
+              "attr":["booklet", "print design", "business"]
+            },
+            {
+              "designation":"business",
+              "company":"Ruvesero",
+              "thumb":"bcard-ruvesero_thumb.jpg",
+              "image":"bcard-ruvesero_thumb.jpg",
+              "attr":["stationery", "print design", "business"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref":"design",
+      "keywords":["web design", "ad banners", "wireframing"],
+      "description":"Design263 provides inspiring and imaginative artwork that bring out the creativity and passions that our clients imagine, our job is to bring what you imagine to reality and help sift it to the to so people identify with your aspirations and brand",
+      "category":[
+        {"type":"Ad Banners",
+          "catalogue":[
+            {
+              "designation":"banner",
+              "company":"canon",
+              "thumb":"banner-canon_thumb.jpg",
+              "image":"banner-canon.jpg",
+              "attr":["banner", "leisure"]
+            },
+            {
+              "designation":"banner",
+              "company":"BASF",
+              "thumb":"banner-BASF.jpg",
+              "image":"banner-BASF.jpg",
+              "attr":["banner", "leisure"]
+            },
+            {
+              "designation":"banner",
+              "company":"Hyundai",
+              "thumb":"banner-hyundai_thumb.jpg",
+              "image":"banner-hyundai.jpg",
+              "attr":["banner", "leisure"]
+            },
+            {
+              "designation":"banner",
+              "company":"Sure",
+              "thumb":"banner-sure_thumb.jpg",
+              "image":"banner-sure.jpg",
+              "attr":["banner", "leisure"]
+            },
+            {
+              "designation":"banner",
+              "company":"Bertolli",
+              "thumb":"banner-bertolli_thumb.jpg",
+              "image":"banner-bertolli.jpg",
+              "attr":["banner", "leisure"]
+            },
+          ]
+        },
+        {"type":"medium-scale",
+          "catalogue":[
+            {
+              "designation":"portfolio website",
+              "company":"1st Base entertainment",
+              "thumb":"website-1st-Base_thumb.jpg",
+              "image":"website-1st-Base.jpg",
+              "attr":["website", "music"],
+              "url":"http://www.firstbaseentertainment.com"
+            },
+            {
+              "designation":"portfolio website",
+              "company":"AfroDeliver",
+              "thumb":"website-afrodeliver_thumb.jpg",
+              "image":"website-afrodeliver.jpg",
+              "attr":["website", "business"],
+              "url":"http://www.afrodeliver.com"
+            },
+            {
+              "designation":"portfolio website",
+              "company":"Bedford valet services",
+              "thumb":"website-bedford-valet_thumb.jpg",
+              "image":"website-bedford-valet.jpg",
+              "attr":["website", "business"],
+              "url":"http://www.bedford-auto-valet.co.uk"
+            },
+            {
+              "designation":"news website",
+              "company":"Zimnut ltd",
+              "thumb":"website-zimnut_thumb.jpg",
+              "image":"website-zimnut.jpg",
+              "attr":["website", "news", "forum", "social"],
+              "url":"http://www.zimnut.com"
+            },
+            {
+              "designation":"social website",
+              "company":"Diaspora people ltd",
+              "thumb":"website-diaspora-people_thumb.jpg",
+              "image":"website-diaspora-people.jpg",
+              "attr":["website", "news", "forum", "social"],
+              "url":"http://www.diaspora-people.com"
+            },
+            {
+              "designation":"social website",
+              "company":"Kids-mums-dads",
+              "thumb":"website-kids-mums-dads_thumb.jpg",
+              "image":"website-kids-mums-dads.jpg",
+              "attr":["website", "forum", "social"],
+              "url":"http://www.kids-mums-dads.co.uk"
+            },
+            {
+              "designation":"social website",
+              "company":"Worship and Praise",
+              "thumb":"website-worship-and-praise_thumb.jpg",
+              "image":"website-worship-and-praise.jpg",
+              "attr":["website", "forum", "social", "worship"],
+              "url":"http://www.worshipandpraise.co.uk"
+            },
+          ]
+        },
+        {"type":"large-scale",
+          "catalogue":[
+            {
+              "designation":"ecommerce website",
+              "company":"Tesco PLC",
+              "thumb":"website-tesco-clubcard_thumb.jpg",
+              "image":"website-tesco-clubcard.jpg",
+              "attr":["website", "ecommerce"],
+              "url":"https://secure.tesco.com/clubcard/"
+            },
+            {
+              "designation":"ecommerce website",
+              "company":"Hawes and Curtis ltd",
+              "thumb":"website-hawes-and-curtis_thumb.jpg",
+              "image":"website-hawes-and-curtis.jpg",
+              "attr":["website", "ecommerce"],
+              "url":"http://www.hawesandcurtis.co.uk"
+            },
+            {
+              "designation":"ecommerce website",
+              "company":"Ghost ltd",
+              "thumb":"website-ghost_thumb.jpg",
+              "image":"website-ghost.jpg",
+              "attr":["website", "ecommerce"],
+              "url":"http://www.ghost.co.uk"
+            },
+            {
+              "designation":"ecommerce website",
+              "company":"Docksrio ltd",
+              "thumb":"website-docksrio_thumb.jpg",
+              "image":"website-docksrio.jpg",
+              "attr":["website", "ecommerce"],
+              "url":"http://www.docksrio.co.uk"
+            },
+            {
+              "designation":"ecommerce website",
+              "company":"Huxley and Cox ltd",
+              "thumb":"website-huxley-and-cox_thumb.jpg",
+              "image":"website-huxley-and-cox.jpg",
+              "attr":["website", "ecommerce"],
+              "url":"http://www.huxley-and-cox.co.uk"
+            },
+            {
+              "designation":"ecommerce website",
+              "company":"Rusevero ltd",
+              "thumb":"website-rusevero_thumb.jpg",
+              "image":"website-rusevero.jpg",
+              "attr":["website", "ecommerce"],
+              "url":"http://www.rusevero.co.uk"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "ref":"development",
+      "keywords":["web development", "banner development", "app development"],
+      "description":"Design263 develops new and existing web sites and applications according to our client specifications, Our role is to take designs or modules and communicate the in code to your end users, Whether creating an ecommerce website, or a simple robust content management system, Design263 is the right place for your next web development project",
+      "category":[
+        {"type":"medium-scale",
+          "catalogue":[
+            {
+              "designation":"portfolio website",
+              "company":"1st Base entertainment",
+              "thumb":"website-1st-Base_thumb.jpg",
+              "image":"website-1st-Base.jpg",
+              "attr":["website", "music"],
+              "url":"http://www.firstbaseentertainment.com"
+            },
+            {
+              "designation":"portfolio website",
+              "company":"AfroDeliver",
+              "thumb":"website-afrodeliver_thumb.jpg",
+              "image":"website-afrodeliver.jpg",
+              "attr":["website", "business"],
+              "url":"http://www.afrodeliver.com"
+            },
+            {
+              "designation":"portfolio website",
+              "company":"Bedford valet services",
+              "thumb":"website-bedford-valet_thumb.jpg",
+              "image":"website-bedford-valet.jpg",
+              "attr":["website", "business"],
+              "url":"http://www.bedford-auto-valet.co.uk"
+            },
+            {
+              "designation":"news website",
+              "company":"Zimnut ltd",
+              "thumb":"website-zimnut_thumb.jpg",
+              "image":"website-zimnut.jpg",
+              "attr":["website", "news", "forum", "social"],
+              "url":"http://www.zimnut.com"
+            },
+            {
+              "designation":"social website",
+              "company":"Diaspora people ltd",
+              "thumb":"website-diaspora-people_thumb.jpg",
+              "image":"website-diaspora-people.jpg",
+              "attr":["website", "news", "forum", "social"],
+              "url":"http://www.diaspora-people.com"
+            },
+            {
+              "designation":"social website",
+              "company":"Kids-mums-dads",
+              "thumb":"website-kids-mums-dads_thumb.jpg",
+              "image":"website-kids-mums-dads.jpg",
+              "attr":["website", "forum", "social"],
+              "url":"http://www.kids-mums-dads.co.uk"
+            },
+            {
+              "designation":"social website",
+              "company":"Worship and Praise",
+              "thumb":"website-worship-and-praise_thumb.jpg",
+              "image":"website-worship-and-praise.jpg",
+              "attr":["website", "forum", "social", "worship"],
+              "url":"http://www.worshipandpraise.co.uk"
+            },
+          ]
+        },
+      ]
+    },
+    {
+      "ref":"social-media",
+      "keywords":["social media marketing", "content upkeep"],
+      "description":"Design263 will take your social media to a new level, inspire users to interact with your content on a more personal, relatable level, create engaging posts and get the best out of your social platforms ",
+      "category":[
+        {
+          "designation":"portfolio website",
+          "company":"1st Base entertainment",
+          "thumb":"social-1st-Base_thumb.jpg",
+          "image":"social-1st-Base.jpg",
+          "attr":[ "social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+        {
+          "designation":"portfolio website",
+          "company":"AfroDeliver",
+          "thumb":"social-afrodeliver_thumb.jpg",
+          "image":"social-afrodeliver.jpg",
+          "attr":[ "social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+        {
+          "designation":"portfolio website",
+          "company":"Bedford valet services",
+          "thumb":"social-bedford-valet_thumb.jpg",
+          "image":"social-bedford-valet.jpg",
+          "attr":[ "social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+        {
+          "designation":"news website",
+          "company":"Zimnut ltd",
+          "thumb":"social-zimnut_thumb.jpg",
+          "image":"social-zimnut.jpg",
+          "attr":["social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+        {
+          "designation":"social website",
+          "company":"Diaspora people ltd",
+          "thumb":"social-diaspora-people_thumb.jpg",
+          "image":"social-diaspora-people.jpg",
+          "attr":[ "social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+        {
+          "designation":"social website",
+          "company":"Kids-mums-dads",
+          "thumb":"social-kids-mums-dads_thumb.jpg",
+          "image":"social-kids-mums-dads.jpg",
+          "attr":[ "social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+        {
+          "designation":"social website",
+          "company":"Worship and Praise",
+          "thumb":"social-worship-and-praise_thumb.jpg",
+          "image":"social-worship-and-praise.jpg",
+          "attr":["social media","facebook","twitter","instagram"],
+          "url":[
+            {"facebook":"http://www.facebook.com"},
+            {"twitter":"http://www.twitter.com"},
+            {"instagram":"http://www.instagram.com"},
+            {"youtube":"http://www.youtube.com"}
+          ]
+        },
+      ]
+    },
+    {
+      "ref":"consultancy",
+      "keywords":[" content auditing", "copy authoring", "analytics and tracking", "search engine optimisation", "internet marketing", "profile and brand enhancement", "user-experience"],
+      "description":"Design263 provides a high end consultancy service for organisations which have existing marketing tools and templates. Use our experience and know how to get the best out of your website, poster placements, ad banners or social media markers. Allow us to audit your content and give a comprehensive report back to help you improve your conversions, client retention, client engagement and user interaction",
+      "caseStudy":[
+        {
+          "client": "1st Base Entertainment",
+          "reference": "1stBase",
+          "clientImg": "1st-base_logo.png",
+          "snapshot": "1stBase.png",
+          "project": "1st base Entertainment website design and build",
+          "type": "Design and Build",
+          "category": "website development",
+          "index": "3",
+          "url": "http://www.firstbaseentertainment.com",
+          "social-media":[
+            {"facebook":"http://www.facebook.com/1stBaseEnt/"},
+            {"twitter":"http://www.twitter.com/1stBaseEnt"},
+            {"instagram":"http://www.instagram.com/1stbaseent"},
+            {"youtube":"http://www.youtube.com"}
+          ],
+          "scale": "Medium",
+          "services": "website concept and wireframing, web consultancy, copy writing, user experience concept,website templating and design, search engine optimisation, social media marketing ",
+          "keywords": "Portfolio website, marketing and social branding",
+          "summary": "1st Base Entertertainment asked us to design, develop and deliver a fast, transferable mobile friendly website to showcase their services within a relatively short space of time and a very tight budget",
+          "features": "Mobile friendly, Content management system, Store , lightweight and fast loading, modern development techniques, fully accessible across devices, browser compatible, analytics, seo",
+          "duration": "eight weeks",
+          "caseStudy": {
+              "caseSummary": "1st Base Entertainment have been fast growing as a music powerhouse in the realms of music production and showcase, and they needed a conduit to not only showcase their work  to record labels and prospective clients, but to also sell their merchandise without having to use a third party. We proceeded to first create wireframes from mockups we compiled during consultations with the client and create a coherent concept which leans on their brand and progressive model. We then created and got approval on three templates which we used as the basis for the websites three sections and finally three weeks into the project we proceeded to develop the website which was delivered within the eight week time period.",
+              "caseFeatures": [
+                {"feature": "scollable menu"},
+                {"feature": "parallax effect"},
+                {"feature": "store"},
+                {"feature": "responsive"},
+                {"feature": "analytics"},
+                {"feature": "content manager"},
+                {"feature": "dynamic site search"}
+              ]
+          },
+          "featured": {
+            "tiles":[
+              {"tile": "1st-base-thumb_1.jpg"},
+              {"tile": "1st-base-thumb_2.jpg"},
+              {"tile": "1st-base-thumb_3.jpg"},
+              {"tile": "1st-base-thumb_4.jpg"}
+            ]
+          },
+          "testimonial": ""
+        },
+      ]
+    },
+  ]
 }

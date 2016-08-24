@@ -1,6 +1,5 @@
 .carousel{
-	background: #0d97de;
-
+	//background: #0d97de;
 	.carousel-control {
 			background:transparent;
 			span {
@@ -10,34 +9,4 @@
 	    top: 45%;
 		}
 	}
-		/*.glyphicon{
-			font-size:40px;
-			top: 250px;
-		}
-		.carousel-control{
-			width:5%;
-		}
-	.carousel-control.right,.carousel-control.left{
-		background: none;
-		//opacity:0;
-	}
-	&:hover .carousel-control.left{
-		//opacity:1;
-	}
-	&:hover .carousel-control.right{
-		//opacity:1;
-	}
-	.item{
-		background-size: cover;
-		background-repeat: no-repeat;
-		background-position: center center;
-		width: 100%;
-		height: 100%;
-		&.active{
-			.banner-text {
-				opacity:1;
-				bottom:0;
-			}
-		}
-	}*/
 }

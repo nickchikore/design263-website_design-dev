@@ -1,8 +1,8 @@
 //common page elements
 
-
 .page{
   &.intro{
+    padding-top:0;
     .summary{
       //padding:50px 10px;
     }
@@ -10,7 +10,8 @@
       font-size: 40px;
       font-weight:100;
       color:$white;
-      text-shadow: -1px 2px 1px #333;
+      //text-shadow: -1px 2px 1px #333;
+      padding-top:70px;
       //display: none;
     }
   blockquote{
@@ -18,7 +19,7 @@
         font-size: 4em;
         line-height: 1em;
         font-weight: 100;
-        text-shadow: -1px 2px 1px #333;
+        //text-shadow: -1px 2px 1px #333;
 
     }
     p{
@@ -58,10 +59,190 @@
       text-align: center;
   }
   #clients h2{
-    font-size: 1.5em;
+    //font-size: 1.5em;
     //font-weight: 100;
     //text-transform: uppercase;
     //text-align: center;
+  }
+  &.story{
+    padding:30px;
+    background:white;
+    h3 , p{
+    text-align:left;
+    color:inherit;
+    font-size:inherit;
+    text-transform: inherit;
+    }
+
+    .our-clients{
+      font-size:2em;
+      color: #717171;
+      margin-right: -30px;
+      margin-left: -30px;
+      margin-bottom: -30px;
+      padding: 0;
+      position: relative;
+      .row {
+          //max-width: 800px;
+          margin: auto;
+      }
+      &:after {
+        content: ' ';
+        display: block;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+            background: rgba(179,179,179,0.2);
+      }
+      .texture {
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/retina_dust.png"),      linear-gradient(180deg, rgba(173, 173, 173, 0.2), rgba(212, 212, 212, 0.4)), center no-repeat rgba(179, 179, 179, 0.2) scroll;
+        width: 100%;
+        height: 100%;
+        opacity:.5;
+        .texture-inverted {
+            width: 100%;
+            height: 100%;
+            background: none;
+        }
+      }
+    }
+    div div{
+      padding: 20px;
+      &.who-we-are {
+          background: #00a8e6;
+          border-radius: 20px 0 0 0;
+          color:white;
+          font-size:2em;
+      }
+      &.what-we-do, &.subscribe, &.philosophy{
+          font-size: 1.2em;
+          color: #717171;
+          h3{
+            font-weight:1.4em;
+            color: #0c6eba;
+          }
+      }
+      &.philosophy{
+        background: #0c6eba;
+        color: white;
+        border-radius: 0 0 20px 0;
+        font-size:1.4em;
+        h3{
+          color: inherit;
+        }
+      }
+      &.subscribe{
+        font-size:2em;
+         a {
+            font-size: 0;
+            width: 64px;
+            height: 64px;
+            display: inline-block;
+            margin-right: 1em;
+            background-size: contain;
+            overflow: hidden;
+            &.facebook {
+                background-image: url(../images/graphics/png/square-facebook-512.png);
+            }
+            &.twitter {
+                background-image: url(../images/graphics/png/square-twitter-512.png);
+            }
+            &.googleplus {
+                background-image: url(../images/graphics/png/square-googleplus-512.png);
+            }
+            &.instagram {
+                background-image: url(../images/graphics/png/square-instagram-512.png);
+            }
+            &.youtube {
+                background-image: url(../images/graphics/png/square-youtube-512.png);
+            }
+        }
+
+
+      }
+      blockquote{
+        font-size: 2em;
+        padding-left: 0;
+      }
+    }
+  }
+  &.services {
+    background: white;
+
+    h3 , p{
+    text-align:left;
+    color:inherit;
+    font-size:inherit;
+    text-transform: inherit;
+    }
+    div{
+      padding:20px;
+      .services-summary{
+        background: #00a8e6;
+        border-radius: 0 0 0 0;
+        color:white;
+        font-size:2em;
+      }
+        article {
+          //padding: 20px;
+          color: inherit;
+          font-size: inherit;
+          padding: 40px;
+          &:hover img + div {
+              opacity:1;
+              top: 0%;
+              transform: translateY(0%);
+              transition:all 400ms ease-out 0s;
+              transition-delay:450ms;
+          }
+          &:nth-child(2n+1){
+            clear: both;
+          }
+          h3 {
+             //padding: 0;
+             font-size: 1.6em;
+             font-family: "Marcellus SC", serif;
+           }
+           img {
+              margin: auto;
+              padding: 2em;
+              + div {
+                  opacity: 0;
+                  background: #0c6eba;
+                  z-index: 1;
+                  margin: 0 -20px;
+                  top: 50%;
+                  transform: translateY(100%);
+                  cursor: pointer;
+                  blockquote{
+                    margin: 0;
+                  }
+                  blockquote, p{
+                    padding:0;
+                    font-size:2.5em;
+
+                  }
+                  p{
+                    font-size:1.4em;
+                  }
+              }
+
+        }
+        .content {
+            position: relative;
+
+        }
+      }
+    }
   }
 }
 .subpage{
