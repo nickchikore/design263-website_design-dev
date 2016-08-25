@@ -58,12 +58,7 @@
       font-weight: 100;
       text-align: center;
   }
-  #clients h2{
-    //font-size: 1.5em;
-    //font-weight: 100;
-    //text-transform: uppercase;
-    //text-align: center;
-  }
+
   &.story{
     padding:30px;
     background:white;
@@ -73,7 +68,6 @@
     font-size:inherit;
     text-transform: inherit;
     }
-
     .our-clients{
       font-size:2em;
       color: #717171;
@@ -82,11 +76,75 @@
       margin-bottom: -30px;
       padding: 0;
       position: relative;
+      h2 {
+          text-align: left;
+          padding-left: 20px;
+          color: #0c6eba;
+      }
+
+      .row.slideContainer {
+          padding-top: 0!important;
+      }
+      .row.slideContainer div {
+          padding: 0!important;
+          font-size: .9em;
+      }
+
+      p.clientHead {
+          text-transform: uppercase;
+          margin: 0;
+      }
+
+      p.clientspec {
+          font-style: italic;
+          color: #aaa;
+          margin: 0;
+      }
+
+      .slider-nav div, .slider-for div {
+          padding: 0;
+
+      }
+      .slider-for div img {
+        max-width: 120px;
+        display: inline-block;
+        margin-right: .5em;
+        padding: 5px;
+        border: 4px solid #ddd;
+        background: #fff;
+        margin-bottom: 5px;
+      }
+      .slider-nav {
+        max-width: 900px;
+        margin: auto;
+        .slick-slide img {
+          max-width: 225px;
+          margin: auto;
+          background: white;
+          border: 5px solid rgba($blue2, 0.4);
+          padding: 20px;
+        }
+      }
+      .slick-prev:before, .slick-next:before {
+        font-family: 'slick';
+        font-size: 60px;
+        opacity: .75;
+        color: #0c6eba;
+      }
+      .slick-prev, .slick-next {
+            top: 40%;
+      }
+      .slick-prev{
+        left: -125px;
+      }
+      .slick-next{
+        right: -75px;
+      }
       .row {
           //max-width: 800px;
           margin: auto;
       }
-      &:after {
+      &:before {
         content: ' ';
         display: block;
         position: absolute;
@@ -94,7 +152,7 @@
         bottom: 0;
         left: 0;
         right: 0;
-            background: rgba(179,179,179,0.2);
+        background: rgba(179,179,179,0.2);
       }
       .texture {
         padding: 0;
@@ -108,6 +166,7 @@
         width: 100%;
         height: 100%;
         opacity:.5;
+        display:none;
         .texture-inverted {
             width: 100%;
             height: 100%;
@@ -115,13 +174,14 @@
         }
       }
     }
-    div div{
+    div > div{
       padding: 20px;
       &.who-we-are {
-          background: #00a8e6;
-          border-radius: 20px 0 0 0;
-          color:white;
-          font-size:2em;
+        background: #00a8e6;
+        border-radius: 20px 0 0 0;
+        color:white;
+        font-size:2em;
+        margin-bottom: 20px;
       }
       &.what-we-do, &.subscribe, &.philosophy{
           font-size: 1.2em;
@@ -172,6 +232,7 @@
       blockquote{
         font-size: 2em;
         padding-left: 0;
+        border: none;
       }
     }
   }
@@ -204,17 +265,17 @@
               transition:all 400ms ease-out 0s;
               transition-delay:450ms;
           }
-          &:nth-child(2n+1){
+          &:nth-child(3n+1){
             clear: both;
           }
           h3 {
-             //padding: 0;
-             font-size: 1.6em;
-             font-family: "Marcellus SC", serif;
+             text-align: center;
+             font-size: 1em;
+             font-family: $font-2;
            }
            img {
               margin: auto;
-              padding: 2em;
+              padding:1em 3em;
               + div {
                   opacity: 0;
                   background: #0c6eba;
@@ -223,16 +284,18 @@
                   top: 50%;
                   transform: translateY(100%);
                   cursor: pointer;
-                  blockquote{
-                    margin: 0;
-                  }
+                  min-height:200px;
                   blockquote, p{
                     padding:0;
                     font-size:2.5em;
 
                   }
+                  blockquote{
+                    margin: 0;
+                    font-size:2em;
+                  }
                   p{
-                    font-size:1.4em;
+                    font-size:1em;
                   }
               }
 

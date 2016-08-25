@@ -568,9 +568,55 @@ p.timeline-Tweet-text a {
     margin-bottom: -30px;
     padding: 0;
     position: relative; }
+    .page.story .our-clients h2 {
+      text-align: left;
+      padding-left: 20px;
+      color: #0c6eba; }
+    .page.story .our-clients .row.slideContainer {
+      padding-top: 0 !important; }
+    .page.story .our-clients .row.slideContainer div {
+      padding: 0 !important;
+      font-size: .9em; }
+    .page.story .our-clients p.clientHead {
+      text-transform: uppercase;
+      margin: 0; }
+    .page.story .our-clients p.clientspec {
+      font-style: italic;
+      color: #aaa;
+      margin: 0; }
+    .page.story .our-clients .slider-nav div, .page.story .our-clients .slider-for div {
+      padding: 0; }
+    .page.story .our-clients .slider-for div img {
+      max-width: 120px;
+      display: inline-block;
+      margin-right: .5em;
+      padding: 5px;
+      border: 4px solid #ddd;
+      background: #fff;
+      margin-bottom: 5px; }
+    .page.story .our-clients .slider-nav {
+      max-width: 900px;
+      margin: auto; }
+      .page.story .our-clients .slider-nav .slick-slide img {
+        max-width: 225px;
+        margin: auto;
+        background: white;
+        border: 5px solid rgba(0, 168, 230, 0.4);
+        padding: 20px; }
+    .page.story .our-clients .slick-prev:before, .page.story .our-clients .slick-next:before {
+      font-family: 'slick';
+      font-size: 60px;
+      opacity: .75;
+      color: #0c6eba; }
+    .page.story .our-clients .slick-prev, .page.story .our-clients .slick-next {
+      top: 40%; }
+    .page.story .our-clients .slick-prev {
+      left: -125px; }
+    .page.story .our-clients .slick-next {
+      right: -75px; }
     .page.story .our-clients .row {
       margin: auto; }
-    .page.story .our-clients:after {
+    .page.story .our-clients:before {
       content: ' ';
       display: block;
       position: absolute;
@@ -590,34 +636,36 @@ p.timeline-Tweet-text a {
       background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/retina_dust.png"), linear-gradient(180deg, rgba(173, 173, 173, 0.2), rgba(212, 212, 212, 0.4)), center no-repeat rgba(179, 179, 179, 0.2) scroll;
       width: 100%;
       height: 100%;
-      opacity: .5; }
+      opacity: .5;
+      display: none; }
       .page.story .our-clients .texture .texture-inverted {
         width: 100%;
         height: 100%;
         background: none; }
-  .page.story div div {
+  .page.story div > div {
     padding: 20px; }
-    .page.story div div.who-we-are {
+    .page.story div > div.who-we-are {
       background: #00a8e6;
       border-radius: 20px 0 0 0;
       color: white;
-      font-size: 2em; }
-    .page.story div div.what-we-do, .page.story div div.subscribe, .page.story div div.philosophy {
+      font-size: 2em;
+      margin-bottom: 20px; }
+    .page.story div > div.what-we-do, .page.story div > div.subscribe, .page.story div > div.philosophy {
       font-size: 1.2em;
       color: #717171; }
-      .page.story div div.what-we-do h3, .page.story div div.subscribe h3, .page.story div div.philosophy h3 {
+      .page.story div > div.what-we-do h3, .page.story div > div.subscribe h3, .page.story div > div.philosophy h3 {
         font-weight: 1.4em;
         color: #0c6eba; }
-    .page.story div div.philosophy {
+    .page.story div > div.philosophy {
       background: #0c6eba;
       color: white;
       border-radius: 0 0 20px 0;
       font-size: 1.4em; }
-      .page.story div div.philosophy h3 {
+      .page.story div > div.philosophy h3 {
         color: inherit; }
-    .page.story div div.subscribe {
+    .page.story div > div.subscribe {
       font-size: 2em; }
-      .page.story div div.subscribe a {
+      .page.story div > div.subscribe a {
         font-size: 0;
         width: 64px;
         height: 64px;
@@ -625,19 +673,20 @@ p.timeline-Tweet-text a {
         margin-right: 1em;
         background-size: contain;
         overflow: hidden; }
-        .page.story div div.subscribe a.facebook {
+        .page.story div > div.subscribe a.facebook {
           background-image: url(../images/graphics/png/square-facebook-512.png); }
-        .page.story div div.subscribe a.twitter {
+        .page.story div > div.subscribe a.twitter {
           background-image: url(../images/graphics/png/square-twitter-512.png); }
-        .page.story div div.subscribe a.googleplus {
+        .page.story div > div.subscribe a.googleplus {
           background-image: url(../images/graphics/png/square-googleplus-512.png); }
-        .page.story div div.subscribe a.instagram {
+        .page.story div > div.subscribe a.instagram {
           background-image: url(../images/graphics/png/square-instagram-512.png); }
-        .page.story div div.subscribe a.youtube {
+        .page.story div > div.subscribe a.youtube {
           background-image: url(../images/graphics/png/square-youtube-512.png); }
-    .page.story div div blockquote {
+    .page.story div > div blockquote {
       font-size: 2em;
-      padding-left: 0; }
+      padding-left: 0;
+      border: none; }
 
 .page.services {
   background: white; }
@@ -663,14 +712,15 @@ p.timeline-Tweet-text a {
         transform: translateY(0%);
         transition: all 400ms ease-out 0s;
         transition-delay: 450ms; }
-      .page.services div article:nth-child(2n+1) {
+      .page.services div article:nth-child(3n+1) {
         clear: both; }
       .page.services div article h3 {
-        font-size: 1.6em;
-        font-family: "Marcellus SC", serif; }
+        text-align: center;
+        font-size: 1em;
+        font-family: "Raleway", sans-serif; }
       .page.services div article img {
         margin: auto;
-        padding: 2em; }
+        padding: 1em 3em; }
         .page.services div article img + div {
           opacity: 0;
           background: #0c6eba;
@@ -678,14 +728,16 @@ p.timeline-Tweet-text a {
           margin: 0 -20px;
           top: 50%;
           transform: translateY(100%);
-          cursor: pointer; }
-          .page.services div article img + div blockquote {
-            margin: 0; }
+          cursor: pointer;
+          min-height: 200px; }
           .page.services div article img + div blockquote, .page.services div article img + div p {
             padding: 0;
             font-size: 2.5em; }
+          .page.services div article img + div blockquote {
+            margin: 0;
+            font-size: 2em; }
           .page.services div article img + div p {
-            font-size: 1.4em; }
+            font-size: 1em; }
       .page.services div article .content {
         position: relative; }
 
@@ -891,9 +943,55 @@ p.timeline-Tweet-text a {
     margin-bottom: -30px;
     padding: 0;
     position: relative; }
+    .page.story .our-clients h2 {
+      text-align: left;
+      padding-left: 20px;
+      color: #0c6eba; }
+    .page.story .our-clients .row.slideContainer {
+      padding-top: 0 !important; }
+    .page.story .our-clients .row.slideContainer div {
+      padding: 0 !important;
+      font-size: .9em; }
+    .page.story .our-clients p.clientHead {
+      text-transform: uppercase;
+      margin: 0; }
+    .page.story .our-clients p.clientspec {
+      font-style: italic;
+      color: #aaa;
+      margin: 0; }
+    .page.story .our-clients .slider-nav div, .page.story .our-clients .slider-for div {
+      padding: 0; }
+    .page.story .our-clients .slider-for div img {
+      max-width: 120px;
+      display: inline-block;
+      margin-right: .5em;
+      padding: 5px;
+      border: 4px solid #ddd;
+      background: #fff;
+      margin-bottom: 5px; }
+    .page.story .our-clients .slider-nav {
+      max-width: 900px;
+      margin: auto; }
+      .page.story .our-clients .slider-nav .slick-slide img {
+        max-width: 225px;
+        margin: auto;
+        background: white;
+        border: 5px solid rgba(0, 168, 230, 0.4);
+        padding: 20px; }
+    .page.story .our-clients .slick-prev:before, .page.story .our-clients .slick-next:before {
+      font-family: 'slick';
+      font-size: 60px;
+      opacity: .75;
+      color: #0c6eba; }
+    .page.story .our-clients .slick-prev, .page.story .our-clients .slick-next {
+      top: 40%; }
+    .page.story .our-clients .slick-prev {
+      left: -125px; }
+    .page.story .our-clients .slick-next {
+      right: -75px; }
     .page.story .our-clients .row {
       margin: auto; }
-    .page.story .our-clients:after {
+    .page.story .our-clients:before {
       content: ' ';
       display: block;
       position: absolute;
@@ -913,34 +1011,36 @@ p.timeline-Tweet-text a {
       background: url("https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/textures/inverted/retina_dust.png"), linear-gradient(180deg, rgba(173, 173, 173, 0.2), rgba(212, 212, 212, 0.4)), center no-repeat rgba(179, 179, 179, 0.2) scroll;
       width: 100%;
       height: 100%;
-      opacity: .5; }
+      opacity: .5;
+      display: none; }
       .page.story .our-clients .texture .texture-inverted {
         width: 100%;
         height: 100%;
         background: none; }
-  .page.story div div {
+  .page.story div > div {
     padding: 20px; }
-    .page.story div div.who-we-are {
+    .page.story div > div.who-we-are {
       background: #00a8e6;
       border-radius: 20px 0 0 0;
       color: white;
-      font-size: 2em; }
-    .page.story div div.what-we-do, .page.story div div.subscribe, .page.story div div.philosophy {
+      font-size: 2em;
+      margin-bottom: 20px; }
+    .page.story div > div.what-we-do, .page.story div > div.subscribe, .page.story div > div.philosophy {
       font-size: 1.2em;
       color: #717171; }
-      .page.story div div.what-we-do h3, .page.story div div.subscribe h3, .page.story div div.philosophy h3 {
+      .page.story div > div.what-we-do h3, .page.story div > div.subscribe h3, .page.story div > div.philosophy h3 {
         font-weight: 1.4em;
         color: #0c6eba; }
-    .page.story div div.philosophy {
+    .page.story div > div.philosophy {
       background: #0c6eba;
       color: white;
       border-radius: 0 0 20px 0;
       font-size: 1.4em; }
-      .page.story div div.philosophy h3 {
+      .page.story div > div.philosophy h3 {
         color: inherit; }
-    .page.story div div.subscribe {
+    .page.story div > div.subscribe {
       font-size: 2em; }
-      .page.story div div.subscribe a {
+      .page.story div > div.subscribe a {
         font-size: 0;
         width: 64px;
         height: 64px;
@@ -948,19 +1048,20 @@ p.timeline-Tweet-text a {
         margin-right: 1em;
         background-size: contain;
         overflow: hidden; }
-        .page.story div div.subscribe a.facebook {
+        .page.story div > div.subscribe a.facebook {
           background-image: url(../images/graphics/png/square-facebook-512.png); }
-        .page.story div div.subscribe a.twitter {
+        .page.story div > div.subscribe a.twitter {
           background-image: url(../images/graphics/png/square-twitter-512.png); }
-        .page.story div div.subscribe a.googleplus {
+        .page.story div > div.subscribe a.googleplus {
           background-image: url(../images/graphics/png/square-googleplus-512.png); }
-        .page.story div div.subscribe a.instagram {
+        .page.story div > div.subscribe a.instagram {
           background-image: url(../images/graphics/png/square-instagram-512.png); }
-        .page.story div div.subscribe a.youtube {
+        .page.story div > div.subscribe a.youtube {
           background-image: url(../images/graphics/png/square-youtube-512.png); }
-    .page.story div div blockquote {
+    .page.story div > div blockquote {
       font-size: 2em;
-      padding-left: 0; }
+      padding-left: 0;
+      border: none; }
 
 .page.services {
   background: white; }
@@ -986,14 +1087,15 @@ p.timeline-Tweet-text a {
         transform: translateY(0%);
         transition: all 400ms ease-out 0s;
         transition-delay: 450ms; }
-      .page.services div article:nth-child(2n+1) {
+      .page.services div article:nth-child(3n+1) {
         clear: both; }
       .page.services div article h3 {
-        font-size: 1.6em;
-        font-family: "Marcellus SC", serif; }
+        text-align: center;
+        font-size: 1em;
+        font-family: "Raleway", sans-serif; }
       .page.services div article img {
         margin: auto;
-        padding: 2em; }
+        padding: 1em 3em; }
         .page.services div article img + div {
           opacity: 0;
           background: #0c6eba;
@@ -1001,14 +1103,16 @@ p.timeline-Tweet-text a {
           margin: 0 -20px;
           top: 50%;
           transform: translateY(100%);
-          cursor: pointer; }
-          .page.services div article img + div blockquote {
-            margin: 0; }
+          cursor: pointer;
+          min-height: 200px; }
           .page.services div article img + div blockquote, .page.services div article img + div p {
             padding: 0;
             font-size: 2.5em; }
+          .page.services div article img + div blockquote {
+            margin: 0;
+            font-size: 2em; }
           .page.services div article img + div p {
-            font-size: 1.4em; }
+            font-size: 1em; }
       .page.services div article .content {
         position: relative; }
 
@@ -1289,3 +1393,37 @@ p.timeline-Tweet-text a {
       line-height: 1.5;
       margin-bottom: 3em;
       font-family: "Raleway", sans-serif; }
+
+@media screen and (max-width: 769px) {
+  .showcase {
+    font-size: 1.6em;
+    padding: 20px;
+    line-height: 1.5em;
+    margin-top: 60px; }
+  .page.intro h1, .page.intro blockquote, .page.intro p {
+    font-size: inherit;
+    padding: inherit;
+    line-height: inherit;
+    margin: 0; }
+  .page.intro blockquote {
+    font-size: 1.4em;
+    line-height: 1.5em; }
+  .page.intro h1 {
+    font-size: 1.5em;
+    line-height: 1.8em; }
+  .page.story .our-clients .slider-nav .slick-slide img {
+    max-width: 100px; }
+  .page.story .our-clients .slick-next {
+    right: -27px;
+    top: 42px; }
+  .page.story .our-clients .slick-prev {
+    left: -29px;
+    top: 42px; }
+  .page.story .our-clients .slick-prev:before,
+  .page.story .our-clients .slick-next:before {
+    font-weight: lighter;
+    font-size: 25px; }
+  .page.story .our-clients h2 {
+    font-size: 18px; }
+  .page.story .our-clients p.clientHead {
+    font-size: 12px; } }

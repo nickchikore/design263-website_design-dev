@@ -104,7 +104,7 @@ var data = {
       "clientImg": "tesco_logo.png",
       "snapshot": "tesco.png",
       "project": "Tesco.com homepage",
-      "type": "Build and Maintainence",
+      "type": "Build and Maintenance",
       "category": "Banner development",
       "index": "1",
       "url": "http://www.tesco.com",
@@ -506,7 +506,7 @@ var data = {
   		"heading":"Design, Develop, Deliver",
   		"summary":"With Design263, you are assured to get unique, beautifully structure designs to pick from which will have your own individual stamp of approval, we feed off your creative direction to create fulfilling pages, banners and email campaigns which we then develop into great marketing tools for your organisations.",
   		"cta":"Book consultation",
-  		"url":"web-development"
+  		"url":"social-media"
   	}
   ],
   "sitemap":[
