@@ -3,23 +3,46 @@ $(function init(){
   setupTemplates();
   parallax();
   slider();
+  flipGallery();
+  loadPartials();
 });
 
+$('.navbar-fixed-top').on('activate.bs.scrollspy', navigate);
+
+function navigate() {
+    var hash = $(this).find('li.active a').attr('href');
+    if(hash !== '#featured') {
+      $('header nav').addClass('inbody');
+    } else {
+      $('header nav').removeClass('inbody');
+    }
+}
+
 function setupTemplates(){
-  //clients list
     var clients = $('#clientsList').html(),
     clientsInfo = Mustache.render(clients, data);
     $('#clients').append(clientsInfo);
 
-/*    var cases = $('#projectList').html(),
-    projectInfo = Mustache.render(clients, data);
-    $('#caseStudy').append(projectInfo);*/
-
     var feature = $('#servicesList').html(),
     serviceInfo = Mustache.render(feature, data);
     $('#our_services').append(serviceInfo);
+}
 
+function flipGallery(){
+  $("#clients").dmx3DFlipGallery(
+    {
+      "shufflePlacement": "",
+      "animationDuration": 600,
+      "rotation": 0,
+      "flipRotation": 360,
+      "singleActive": true
+    }
+  );
+}
 
+function loadPartials(){
+  $('#header').load('../template/header.html');
+  $('#footer').load('../template/footer.html');
 }
 
 $(document).ready(function() {
@@ -53,6 +76,15 @@ function parallax(){
   }
 }
 
+
+
+
+
+
+
+
+
+
 $(function() {
   "use strict";
 
@@ -73,11 +105,11 @@ $(function() {
 
   $('.fullheight').css('height', wheight); //set to window tallness
 
-
     //adjust height of .fullheight elements on window resize
     $(window).resize(function() {
       wheight = $(window).height(); //get the height of the window
       $('.fullheight').css('height', wheight); //set to window tallness
+
     });
 
   //replace IMG inside carousels with a background image
@@ -93,17 +125,7 @@ $(function() {
     $('header nav').addClass('inbody');
   } else {
     $('header nav').removeClass('inbody');
-  }
-
-  // Add an inbody class to nav when scrollspy event fires
-  $('.navbar-fixed-top').on('activate.bs.scrollspy', function() {
-    var hash = $(this).find('li.active a').attr('href');
-    if(hash !== '#featured') {
-      $('header nav').addClass('inbody');
-    } else {
-      $('header nav').removeClass('inbody');
-    }
-  });
+  }// Add an inbody class to nav when scrollspy event fires
 
   //Use smooth scrolling when clicking on navigation
   $('.navbar a[href*=#]:not([href=#])').click(function() {
@@ -150,33 +172,28 @@ $(function() {
   $('.carousel').carousel({
     pause: false
   });
-
-/*(function(){
-    		var template = $('#template').html(),
-    		output = Mustache.render(template, data);
-    		$('#clientsList').append(output);
-  })();
-*/
 });
+
 
 function slider(){
 
-$('.slider-for').slick({
- slidesToShow: 1,
- slidesToScroll: 1,
- arrows: false,
- fade: true,
- asNavFor: '.slider-nav'
-});
-$('.slider-nav').slick({
- slidesToShow: 3,
- slidesToScroll: 1,
- asNavFor: '.slider-for',
- dots: true,
- centerMode: true,
- focusOnSelect: true,
- autoplay: true,
-  autoplaySpeed: 5000,
-});
+  $('.slider-for').slick({
+     slidesToShow: 1,
+     slidesToScroll: 1,
+     arrows: false,
+     fade: true,
+     asNavFor: '.slider-nav'
+  });
 
-}
+  $('.slider-nav').slick({
+     slidesToShow: 3,
+     slidesToScroll: 1,
+     asNavFor: '.slider-for',
+     dots: true,
+     centerMode: true,
+     focusOnSelect: true,
+     autoplay: true,
+     autoplaySpeed: 5000
+  });
+
+}//slick slider

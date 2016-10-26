@@ -1,3 +1,4 @@
+@import "bootstrap";
 @import "variables";
 @import "bourbon/bourbon";
 @import "grid-settings";
@@ -5,55 +6,10 @@
 @import "base/base";
 @import "mixins";
 @import "base";
+@import "pages/pages";
 @import "modules/modules";
-  @import "elements/elements";
+@import "elements/elements";
+@import "slick-theme";
+@import "slick";
+@import "dmxzone"
 //@import "font-awesome/font-awesome";
-
-
-@include media(max-width 769px){
-    .showcase {
-      font-size: 1.6em;
-      padding:20px;
-      line-height:1.5em;
-      margin-top:60px;
-  }
-
-  .page.intro h1,.page.intro blockquote,.page.intro p {
-      font-size:inherit;
-      padding:inherit;
-      line-height:inherit;
-      margin:0;
-  }
-  .page.intro blockquote{
-      font-size:1.4em;
-      line-height:1.5em;
-  }
-  .page.intro h1{
-      font-size:1.5em;
-      line-height:1.8em;
-  }
-
-  .page.story .our-clients .slider-nav .slick-slide img {
-      max-width: 100px;
-  }
-
-  .page.story .our-clients .slick-next {
-      right: -27px;
-      top: 42px;
-  }
-  .page.story .our-clients .slick-prev {
-      left: -29px;
-      top: 42px;
-  }
-  .page.story .our-clients .slick-prev:before,
-  .page.story .our-clients .slick-next:before {font-weight: lighter;font-size: 25px;}
-
-
-  .page.story .our-clients h2 {
-      font-size: 18px;
-  }
-
-  .page.story .our-clients p.clientHead {
-      font-size: 12px;
-  }
-}

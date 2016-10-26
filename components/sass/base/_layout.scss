@@ -1,6 +1,7 @@
 body{
 	position: relative;
 	padding-top:0;
+
 	&:hover header{
 		opacity: 1;
 	}
@@ -30,4 +31,12 @@ html {
     background: url(../images/bgvid.jpg) no-repeat;
     z-index: -10;
     //opacity: .8;
+}
+#featured.intro:before {
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #000;//url(../images/wire.jpeg);
+    background-size: cover;
+		opacity:.3;
 }

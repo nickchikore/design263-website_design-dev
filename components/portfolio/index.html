@@ -1,0 +1,146 @@
+
+<!doctype html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="utf-8">
+<title>Architecture Portfolio</title>
+<link rel="stylesheet" type="text/css" href="bootstrap/3/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="ScriptLibrary/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="bootstrap/3/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="ScriptLibrary/dmxBootstrap3Navigation.js"></script>
+<script type="text/javascript" src="ScriptLibrary/dmxDataBindings.js"></script>
+<script type="text/javascript" src="ScriptLibrary/dmxDataSet.js"></script>
+<script type="text/javascript" src="ScriptLibrary/dmxServerAction.js"></script>
+<script type="text/javascript">
+function dmxBootstrap3ComponentsAction(type, target, action) { // v1.0
+ var evt = jQuery.event.fix(window.event || arguments.callee.caller.arguments[0]),
+  args = Array.prototype.slice.call(arguments, 2);
+
+  jQuery(target)[type](action);
+
+ evt.preventDefault();
+}
+function dmxDataBindingsAction(action, target) { // v1.92
+  var inst, args = Array.prototype.slice.call(arguments, 2);
+
+  try {
+    var evt = jQuery.event.fix(window.event || arguments.callee.caller.arguments[0]);
+    evt.preventDefault();
+    inst = jQuery(evt.target).closest('[data-binding-id="' + target + '"]').data('repeater');
+  } catch(e) {}
+
+  switch (action) {
+    case 'refresh':
+      action = 'load';
+    case 'setPage':
+      inst = jQuery.dmxDataSet.dataSets[target];
+      break;
+    case 'selectCurrent':
+      inst = inst || jQuery.dmxDataBindings.regions[target];
+      action = 'select';
+      break;
+  }
+
+  if (inst) inst[action].apply(inst, args);
+}
+</script>
+</head>
+
+<body data-spy="scroll" data-target=".nav-container">
+<nav class="navbar navbar-default navbar-fixed-top navbar-inverse" role="navigation">
+  <div class="nav-container container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs3-navbar-collapse"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button>
+      <a class="navbar-brand" href="#">Architecture Company</a></div>
+    <div class="collapse navbar-collapse" id="bs3-navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="active"><a href="#">About</a></li>
+        <li><a href="index.html">Projects</a></li>
+        <li><a href="#">Case Study</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="breadcrumb">
+        <li> <a href="#">Home</a></li>
+        <li class="active"> Projects </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12 project">
+    <div class="well">
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <button class="btn btn-primary" type="button">Start Your Project</button>
+    </div>
+    </div>
+    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 project" onClick="dmxBootstrap3ComponentsAction('modal','#modal','show');dmxDataBindingsAction('selectCurrent','repeat1',this)" data-binding-repeat="{{exeProjects.data.query1}}" data-binding-id="repeat1">
+    	<img src="img/{{image}}" class="img-responsive center-block" alt="project image"/>
+    	<div class="info">
+         <h5>{{name}}</h5>
+         <p>{{description}}</p>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="modal" role="dialog" tabindex="-1" data-binding-detail="repeat1" data-binding-id="modal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+              <h4 class="modal-title">{{name}} details</h4>
+            </div>
+            <div class="">
+              <div class="table-responsive">
+                <table class="table table-bordered table-hover">
+                  <tbody>
+                    <tr>
+                      <th>Location</th>
+                      <td>{{location}}</td>
+                    </tr>
+                    <tr>
+                      <th>Completed</th>
+                      <td>{{completed}}</td>
+                    </tr>
+                    <tr>
+                      <th>Building area</th>
+                      <td>{{building_area}}</td>
+                    </tr>
+                    <tr>
+                      <th>Bedrroms</th>
+                      <td>{{bedrroms}}</td>
+                    </tr>
+                    <tr>
+                      <th>Bathrooms</th>
+                      <td>{{bathrooms}}</td>
+                    </tr>
+                    <tr>
+                      <th>Occupants</th>
+                      <td>{{occupants}}</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+<script type="text/javascript">
+  /* dmxServerAction name "exeProjects" */
+       jQuery.dmxServerAction(
+         {"id": "exeProjects", "url": "dmxConnect/api/projectsAll.php", "method": "GET", "sendOnSubmit": false, "sendOnReady": true, "data": {}}
+       );
+  /* END dmxServerAction name "exeProjects" */
+</script>
+</body>
+</html>

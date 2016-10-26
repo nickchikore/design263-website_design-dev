@@ -1,0 +1,180 @@
+/* DMXzone HTML5 3D Flip Gallary */
+
+/* Gallery Container */
+.dmx3DFlipGallery {
+	position: relative;
+}
+
+/* Loading Screen */
+.dmx3DFlipGalleryLoading {
+	background-image: url(dmx3DFlipGalleryLoader.gif);
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+/* Hide all photos on loading */
+.dmx3DFlipGalleryLoading .dmx3DFlipPhoto {
+	visibility: hidden;
+}
+
+/* Fixes mozilla anti-aliasing bug */
+.dmx3DFlipPhotoFront, .dmx3DFlipPhotoBack {
+	outline: 1px solid transparent;
+}
+
+/* Remove outlines from links */
+.dmx3DFlipPhoto a {
+	outline: none;
+}
+
+/* Remove border from images with link */
+.dmx3DFlipPhoto a img {
+	border: none;
+}
+
+/* The photo container */
+.dmx3DFlipPhoto {
+	display: inline-block;
+	margin: 10px;
+}
+
+/* The photo front and back */
+.dmx3DFlipPhotoFront, .dmx3DFlipPhotoBack {
+	position: relative;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	background-color: #fff;
+	padding: 10px;
+}
+
+/* The back of the photo will get absolute positioning */
+.dmx3DFlipPhotoBack {
+	position: absolute;
+	width: 100%; height: 100%;
+	left: 0; top: 0;
+	overflow: hidden;
+	-webkit-overflow-scrolling: touch;
+}
+
+
+/*.dmx3DFlipPhotoFront {
+    display: block;
+    border: 4px solid inherit;
+    background: #00a8e6;
+    max-height: 300px;
+}
+
+.dmx3DFlipPhotoBack {
+    display: none;
+}
+
+.dmx3DFlipPhoto.col-xs-12.col-md-6.col-lg-4 {
+    overflow: hidden;
+    max-height: 280px;
+    margin: 10px 0;
+}
+
+.dmx3DFlipPhoto a img {max-width: 150%;}
+
+.dmx3DFlipPhoto a {
+    max-width: 350px;
+    overflow: hidden;
+    display: block;
+}
+
+.dmx3DFlipPhotoFront:hover + .dmx3DFlipPhotoBack, .dmx3DFlipPhotoFront:focus + .dmx3DFlipPhotoBack {
+    display: block;
+}*/
+
+
+#dmx3dFlipGallery1 {
+  //width:100% !important;
+  position:relative;
+  //height:auto !important;
+  //margin-bottom:30px !important;
+ }
+ .dmx3DFlipPhoto {
+  //width:95% !important;
+  position:relative;
+ }
+ .dmx3DFlipPhoto img {
+  width:auto;
+  max-width:100%;
+ }
+ .dmx3DFlipPhotoWrapper {
+  //width: 33.3333% !important;
+  float:left;
+ }
+ .dmx3DFlipPhotoFront, .dmx3DFlipPhotoBack {
+		background:#f7f7f7;
+ }
+ .dmx3DFlipPhotoBack {
+background:#f7f7f7;
+color:#262626;
+text-align:center;
+ }
+ .dmx3DFlipPhotoBack h4 {
+    top: 0;
+    height: 40px;
+    left: 0;
+    line-height: 42px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-top:-10px;
+	font-weight:400;
+	font-size:14px;
+	text-transform:uppercase;
+	color:#222;
+}
+ .dmx3DFlipPhotoFront h4 {
+    bottom: 0;
+    height: 40px;
+    left: 0;
+    line-height: 42px;
+    margin: 0;
+    overflow: hidden;
+    text-align: center;
+	margin-left:-10px;
+	margin-right:-10px;
+	margin-bottom:-10px;
+	font-weight:400;
+	font-size:14px;
+	text-transform:uppercase;
+}
+.dmx3DFlipPhotoFront:hover {
+	background:#f1f1f1;
+}
+ .dmx3DFlipPhotoFront:hover h4 {
+    background: #d91318;
+    color: white;
+ }
+
+
+ /*Small Devices*/
+ @media (max-width: 379px) {
+	 .dmx3DFlipPhotoWrapper {
+  width: 100% !important;
+  margin-left:-5px;
+}
+ }
+@media all and (min-width:380px) and (max-width:767px) {
+.dmx3DFlipPhotoWrapper {
+  width: 50% !important;
+  margin-left:-5px;
+}
+}
+
+/*Medium Devices*/
+@media (min-width: 992px) {
+
+}
+
+/*Large Devices*/
+@media (min-width: 1200px) {
+
+}

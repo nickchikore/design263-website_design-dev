@@ -1,0 +1,116 @@
+ <!DOCTYPE html>
+ <html lang="en">
+     <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
+     <meta name="google-site-verification" content="v0RbFGdNq5X7pHjyepGNJjs53-bbyaQlOSFMC6F0QVI"/>
+     <title>Design263 - Our Work</title>
+     <meta property="og:description" content="{{PageDescription}}"/>
+     <meta property="fb:app_id" content="704339209706397"/>
+     <meta property="og:title" content="{{PageTitle}}"/>
+     <meta property="og:type" content="webpage"/>
+     <meta property="og:url" content="http://www.design263.com"/>
+     <meta property="og:image" content="https://static.xx.fbcdn.net/rsrc.php/v2/yb/r/nrpLiSINthw.png"/>
+     <meta property="og:locale" content="en_US"/>
+     <meta name="twitter:site:id" content="336765253"/>
+     <meta name="twitter:card" content="summary"/>
+     <link href="https://plus.google.com/+Design263" rel="publisher">
+     <link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="/images/favicon/favicon.ico">
+     <link href="../css/screen.css" rel="stylesheet" type="text/css">
+     <link rel="stylesheet" type="text/css" href="/Styles/dmx3DFlipGallery.css" />
+     <script type="text/javascript" src="/ScriptLibrary/jquery-latest.pack.js"></script>
+     <script type="text/javascript" src="/ScriptLibrary/dmx3DFlipGallery.js"></script>
+     </head>
+
+     <body class="portfolio">
+         <header id="header"></header>
+         <div class="page container-fluid">
+             <div class="row hero">
+                 <h1>Our Work</h1>
+                 <p>Over time we have worked on some exciting projects and here are a few examples of what we can do for you. You even get a free 2 hour consultation for every project</p>
+             </div><!--hero-->
+         </div>
+
+        <div class="container">
+            <div class="tiles" id="clients">
+              <div class="dmx3DFlipGallery" id="portfolio" style="width:300px;height:200px;">
+                  <div class="dmx3DFlipPhoto">
+                    <div class="dmx3DFlipPhotoFront">
+                      <a href="javascript:void(0);" target="">
+                      <img src="/components/images/black-chair.jpg" border="0"  id="img_black_chair" alt="black chair" />
+                      </a>
+                      <h4>black chair</h4>
+                    </div>
+                    <div class="dmx3DFlipPhotoBack">
+                      <h4>black chair</h4>
+                    </div>
+                  </div>
+                </div>
+                <script type="text/javascript">
+                  // <![CDATA[
+                 jQuery(document).ready(
+                   function()
+                     {
+                       jQuery("#portfolio").dmx3DFlipGallery(
+                         {"shufflePlacement": ""}
+                       );
+                     }
+                 );
+                  // ]]>
+                </script>
+            </div>
+            <div class="projects" id="caseStudy">
+
+            </div>
+        </div>
+
+         <footer id="footer"></footer>
+         <script src="../js/lib/jquery-1.11.2.min.js"></script>
+         <script src="../js/data.json"></script>
+		 <script type="text/javascript">
+             $(function(){
+                 $('#header').load('../template/header.html');
+                 $('#footer').load('../template/footer.html');
+             });
+         </script>
+         <script src="../js/script.js"></script>
+
+		 <script type="text/html" id="clientsList">
+            <div class="container-fluid texture-normal">
+                <ul class="showcase row">
+                    {{#clients}}
+					<li>
+						<a href="{{url}}"><img src="../images/homepages/{{snapshot}}" alt="{{client}}"/></a>
+						<div class="brief">
+							<p>{{}}</p>
+							<span>{{summary}}</span>
+						</div>
+					</li>
+                    {{/clients}}
+                </ul>
+            </div>
+            <meta name="keywords" content="{{keywords}}">
+			<div class="case">
+				<h1>{{project}}</h1>
+				<strong>{{category}}:{{type}}</strong>
+				<blockquote>{{scale}} scale project, {{services}}</blockquote>
+				<div class="summary">
+					<p>{{caseStudy.caseSummary}}</p>
+				</div>
+				<div class="features">
+					<ul>
+						{{#caseStudy}}
+						<li>{{caseFeatures.feature}}</li>
+						{{/caseStudy}}
+					</ul>
+				</div>
+				<div class="thumbs">
+					{{#featured}}
+					<div>{{tile}}</div>
+					{{/featured}}
+				</div>
+			</div>
+         </script>
+     </body>
+ </html>

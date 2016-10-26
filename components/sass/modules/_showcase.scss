@@ -1,5 +1,9 @@
 .showcase{
 	padding: 100px 20px;
+	@include media(max-width 769px){
+			padding:20px;
+	}
+
 	blockquote{
 		color:$primary-color;
 	}
@@ -31,5 +35,4 @@
 	&.contact-form{
 		margin-top:-120px;
 	}
-
 }

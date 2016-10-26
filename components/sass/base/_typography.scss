@@ -123,6 +123,9 @@ a.cta {
   letter-spacing: .02em;
 	border: 1px solid;
 	padding: 8px;
+	@include media(max-width 769px){
+	  font-weight:100;
+	}
 	&:hover, &:active {
 	    text-decoration: none;
 	    color: #104c90;
