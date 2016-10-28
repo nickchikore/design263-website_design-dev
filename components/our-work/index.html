@@ -18,7 +18,7 @@
      <link href="https://plus.google.com/+Design263" rel="publisher">
      <link rel="shortcut icon" type="image/x-icon" sizes="16x16" href="/images/favicon/favicon.ico">
      <link href="../css/screen.css" rel="stylesheet" type="text/css">
-     <link rel="stylesheet" type="text/css" href="/Styles/dmx3DFlipGallery.css" />
+     <!--<link rel="stylesheet" type="text/css" href="/Styles/dmx3DFlipGallery.css" />-->
      <script type="text/javascript" src="/ScriptLibrary/jquery-latest.pack.js"></script>
      <script type="text/javascript" src="/ScriptLibrary/dmx3DFlipGallery.js"></script>
      </head>
@@ -26,42 +26,29 @@
      <body class="portfolio">
          <header id="header"></header>
          <div class="page container-fluid">
-             <div class="row hero">
+             <div class="row hero col-md-offset-2 col-md-8">
                  <h1>Our Work</h1>
-                 <p>Over time we have worked on some exciting projects and here are a few examples of what we can do for you. You even get a free 2 hour consultation for every project</p>
+                 <p>Over time we have worked on some exciting projects and our portfolio has grown to include small and large projects alike.Below are a few examples of what we can do for you. Feel free to have a proper look and tell us what you think</p>
              </div><!--hero-->
-         </div>
 
-        <div class="container">
-            <div class="tiles" id="clients">
-              <div class="dmx3DFlipGallery" id="portfolio" style="width:300px;height:200px;">
-                  <div class="dmx3DFlipPhoto">
-                    <div class="dmx3DFlipPhotoFront">
-                      <a href="javascript:void(0);" target="">
-                      <img src="/components/images/black-chair.jpg" border="0"  id="img_black_chair" alt="black chair" />
-                      </a>
-                      <h4>black chair</h4>
-                    </div>
-                    <div class="dmx3DFlipPhotoBack">
-                      <h4>black chair</h4>
-                    </div>
-                  </div>
-                </div>
-                <script type="text/javascript">
-                  // <![CDATA[
-                 jQuery(document).ready(
-                   function()
-                     {
-                       jQuery("#portfolio").dmx3DFlipGallery(
-                         {"shufflePlacement": ""}
-                       );
-                     }
-                 );
-                  // ]]>
-                </script>
+            <div class="our-work">
+                <div class="tiles" id="clients"></div>
             </div>
-            <div class="projects" id="caseStudy">
-
+            <div class="clincher">
+            <div class="imgBg col-sm-6 col-md-6 mobile">
+              <img src="/images/portfolio-heroBg.png" alt="" />
+            </div>
+              <div class=" col-sm-6 col-md-6">
+                <h3>Do you like what we do?</h3>
+                <p>You can <a href="#enquiryForm" class="cta text-link">make a simple enquiry</a> about an upcoming project or about collaborating on an ongoing project via our enquiries form. Alternatively if you have made up your mind that we are a good fit, you can <a href="#consultationForm" class="cta text-link">book a consultation</a> with us straight away, you get a free 2 hour consultation for your project. Once we know what you want we can show you what we need to proceed .We cant wait to hear from you. </p>
+                <div class="">
+                  <a href="#enquiryForm" class="btn primary-btn">Make an enquiry</a>
+                  <a href="#consultationForm" class="btn primary-btn">Book a consultation</a>
+                </div>
+              </div>
+              <div class="imgBg col-sm-6 col-md-6 desktop">
+                <img src="/images/portfolio-heroBg.png" alt="" />
+              </div>
             </div>
         </div>
 
@@ -78,39 +65,43 @@
 
 		 <script type="text/html" id="clientsList">
             <div class="container-fluid texture-normal">
-                <ul class="showcase row">
+                <ul class="row" id="portfolio">
                     {{#clients}}
-					<li>
-						<a href="{{url}}"><img src="../images/homepages/{{snapshot}}" alt="{{client}}"/></a>
-						<div class="brief">
-							<p>{{}}</p>
-							<span>{{summary}}</span>
-						</div>
-					</li>
+
+                    <li class="dmx3DFlipGallery col-xs-6 col-md-4">
+                      <div class="dmx3DFlipPhoto">
+                        <div class="dmx3DFlipPhotoFront">
+                          <img src="../images/clientImg/{{portfolio_img}}" alt="{{client}}"/>
+                        </div>
+                        <div class="dmx3DFlipPhotoBack">
+                          <div class="brief">
+                            <h4>{{client}}</h4>
+                            <p class="shortDesc">{{project}}</p>
+                            <p class="longDesc">{{summary}}</p>
+                            <div>
+                              <a href="../clients/{{reference}}" title="{{project}}" class="btn review">Case study</a>
+                              <a href="{{url}}" target="_blank" class="btn review external">{{client}}</a>
+                          </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
                     {{/clients}}
                 </ul>
             </div>
-            <meta name="keywords" content="{{keywords}}">
-			<div class="case">
-				<h1>{{project}}</h1>
-				<strong>{{category}}:{{type}}</strong>
-				<blockquote>{{scale}} scale project, {{services}}</blockquote>
-				<div class="summary">
-					<p>{{caseStudy.caseSummary}}</p>
-				</div>
-				<div class="features">
-					<ul>
-						{{#caseStudy}}
-						<li>{{caseFeatures.feature}}</li>
-						{{/caseStudy}}
-					</ul>
-				</div>
-				<div class="thumbs">
-					{{#featured}}
-					<div>{{tile}}</div>
-					{{/featured}}
-				</div>
-			</div>
+
+         </script>
+         <script type="text/javascript">
+           // <![CDATA[
+          jQuery(document).ready(
+            function()
+              {
+                jQuery("#portfolio").dmx3DFlipGallery(
+                  {"shufflePlacement": ""}
+                );
+              }
+          );
+           // ]]>
          </script>
      </body>
  </html>

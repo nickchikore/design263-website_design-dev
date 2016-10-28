@@ -103,7 +103,8 @@ var data = {
       "reference": "tesco",
       "clientImg": "tesco_logo.png",
       "snapshot": "tesco.png",
-      "project": "Tesco.com homepage",
+      "portfolio_img": "tesco_tile.jpg",
+      "project": "Tesco.com homepage banner updates and maintainence",
       "type": "Build and Maintenance",
       "category": "Banner development",
       "index": "1",
@@ -129,31 +130,32 @@ var data = {
       "testimonial": ""
     },
     {
-      "client": "Tesco Clubcard",
-      "reference": "clubcard",
-      "clientImg": "clubcard_logo.png",
-      "snapshot": "clubcard.png",
-      "project": "Tesco clubcard website rebrand",
+      "client": "GE Recruitment",
+      "reference": "gerecruitment",
+      "clientImg": "gerecruitment.png",
+      "snapshot": "gerecruitment.png",
+      "portfolio_img": "gerecruitment_tile.jpg",
+      "project": "Website design and build, social media strategy",
       "type": "Build and Maintainence",
       "category": "website development",
       "index": "2",
-      "url": "https://secure.tesco.com/clubcard/",
-      "scale": "Large",
+      "url": "http://www.gerecruitmentuk.com",
+      "scale": "medium",
       "services": "Web development, website rebuild",
       "keywords": "web development, web consultation, UX",
-      "summary": "Tesco Clubcard decided to do a website revamp to boost their new 'Clubcard Boost' campaign. The task was to create a new website within a short space of time and make it as accessible and user friendly as possible",
-      "features": "Responsive html5 banners, dynamic reusable code, Full stack browser compatible, fully accessible across all devices",
-      "duration": "6 months",
+      "summary": "GE recruitment were launching their brand and needed a branding campaign on both their print and digital platforms, Design263 was assigned the task of creating a visually pleasing but relatable brand for the client",
+      "features": " Full stack browser compatible, fully accessible across all devices",
+      "duration": "eight weeks",
       "caseStudy": {
-          "caseSummary": "The tesco Clubcard website's purpose is to attract and retain loyal customers using their their brand loyalty schemes which revolve around being a Tesco clubcard member. The project's main objective was to evolve the then existing website to utilise newer , more modern looking concepts in web design. Our job as developers was to build the website to the new specifications and deliver a lightweight , fast and expremely accessible solution for the client. ",
+          "caseSummary": "Design263 did everything from the redesigning the company logo, to reimagining the company's color strategy according to the spec we had been given. We build the website , created a robust emailing system and integrated social media into their day to day working, which has now become the center of their marketing strategy  ",
           "caseFeatures": []
       },
       "featured": {
         "tiles":[
-          {"tile": "clubcard-thumb_1.jpg"},
-          {"tile": "clubcard-thumb_2.jpg"},
-          {"tile": "clubcard-thumb_3.jpg"},
-          {"tile": "clubcard-thumb_4.jpg"}
+          {"tile": "gerecruitment-thumb_1.jpg"},
+          {"tile": "gerecruitment-thumb_2.jpg"},
+          {"tile": "gerecruitment-thumb_3.jpg"},
+          {"tile": "gerecruitment-thumb_4.jpg"}
         ]
       },
       "testimonial": ""
@@ -163,7 +165,8 @@ var data = {
       "reference": "1stBase",
       "clientImg": "1st-base_logo.png",
       "snapshot": "1stBase.png",
-      "project": "1st base Entertainment website design and build",
+      "portfolio_img": "1st-base_tile.jpg",
+      "project": "Website design, build and rebrand campaign ",
       "type": "Design and Build",
       "category": "website development",
       "index": "3",
@@ -201,7 +204,8 @@ var data = {
       "reference": "hawesandcurtis",
       "clientImg": "hawes_logo.png",
       "snapshot": "hawes.png",
-      "project": "Hawes and Curtis website rebuild",
+      "portfolio_img": "hawes_tile.jpg",
+      "project": "Website rebuild, email templating",
       "type": "Build, Consultancy and Maintainence",
       "category": "website development",
       "index": "4",
@@ -241,11 +245,74 @@ var data = {
       "testimonial": ""
     },
     {
+      "client": "Tesco Clubcard",
+      "reference": "clubcard",
+      "clientImg": "clubcard_logo.png",
+      "snapshot": "clubcard.png",
+      "portfolio_img": "clubcard_tile.jpg",
+      "project": "Website rebuild for Clubcard boost launch",
+      "type": "Build and Maintainence",
+      "category": "website development",
+      "index": "2",
+      "url": "https://secure.tesco.com/clubcard/",
+      "scale": "Large",
+      "services": "Web development, website rebuild",
+      "keywords": "web development, web consultation, UX",
+      "summary": "Tesco Clubcard decided to revamp website to introduce their 'Clubcard Boost' campaign. The task was to create a new website which was as accessible and user friendly as possible",
+      "features": "Responsive html5 banners, dynamic reusable code, Full stack browser compatible, fully accessible across all devices",
+      "duration": "6 months",
+      "caseStudy": {
+          "caseSummary": "The tesco Clubcard website's purpose is to attract and retain loyal customers using their their brand loyalty schemes which revolve around being a Tesco clubcard member. The project's main objective was to evolve the then existing website to utilise newer , more modern looking concepts in web design. Our job as developers was to build the website to the new specifications and deliver a lightweight , fast and expremely accessible solution for the client. ",
+          "caseFeatures": []
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "clubcard-thumb_1.jpg"},
+          {"tile": "clubcard-thumb_2.jpg"},
+          {"tile": "clubcard-thumb_3.jpg"},
+          {"tile": "clubcard-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
+      "client": "AfroDeliver",
+      "reference": "afrodeliver",
+      "clientImg": "afro-deliver.png",
+      "snapshot": "afro-deliver.png",
+      "portfolio_img": "afro-deliver_tile.jpg",
+      "project": "Branding, website design ,build and maintenence",
+      "type": "Build and Maintainence",
+      "category": "website development",
+      "index": "2",
+      "url": "http://www.afrodeliver.com",
+      "scale": "medium",
+      "services": "Web development, website rebuild",
+      "keywords": "web development, web consultation, UX",
+      "summary": "AfroDeliver were launching their brand and needed a branding campaign on both their print and digital platforms, Design263 was assigned the task of creating a visually pleasing but relatable brand for the client",
+      "features": " Full stack browser compatible, fully accessible across all devices",
+      "duration": "3 months",
+      "caseStudy": {
+          "caseSummary": "Design263 did everything from the redesigning the company logo, to reimagining the company's color strategy according to the spec we had been given. We build the website , created a robust emailing system and integrated social media into their day to day working, which has now become the center of their marketing strategy  ",
+          "caseFeatures": []
+      },
+      "featured": {
+        "tiles":[
+          {"tile": "afrodeliver-thumb_1.jpg"},
+          {"tile": "afrodeliver-thumb_2.jpg"},
+          {"tile": "afrodeliver-thumb_3.jpg"},
+          {"tile": "afrodeliver-thumb_4.jpg"}
+        ]
+      },
+      "testimonial": ""
+    },
+    {
       "client": "Ghost",
       "reference": "ghost",
       "clientImg": "ghost_logo.png",
       "snapshot": "ghost.png",
-      "project": "Responsive Ghost website rebuild ",
+      "portfolio_img": "ghost_tile.jpg",
+      "project": "Responsive website rebuild and store update",
       "type": "Build and Maintainence",
       "category": "website development",
       "index": "5",
@@ -253,7 +320,7 @@ var data = {
       "scale": "large",
       "services": "Web development, website rebuild",
       "keywords": "seo review, google analytics, responsive web development",
-      "summary": "Ghost commissioned us to work on a rebuild on the website the already had which was sitting on a php framework and Magento. They required something a bit more flexible and bespoke as well as a free customisable system that they could change without having to rely on changes to the framework ",
+      "summary": "Ghost wanted to rebuild the website the already which was sitting on a php framework and Magento. They required a bit more flexibility and bespoke system they could control fully without needing code ",
       "features": "Content management system, Ecommerce capabilility, responsive design, Customer tracking",
       "duration": "6 months",
       "caseStudy": {
@@ -288,7 +355,8 @@ var data = {
       "reference": "docksrio",
       "clientImg": "docksrio_logo.png",
       "snapshot": "docksrio.png",
-      "project": "Rebuild Docksrio website",
+      "portfolio_img": "docksrio_tile.jpg",
+      "project": " Docksrio website rebuild and rebrand",
       "type": "Build and Maintainence",
       "category": "website development",
       "index": "6",
@@ -296,7 +364,7 @@ var data = {
       "scale": "medium",
       "services": "Web development, website rebuild",
       "keywords": "seo review, google analytics, responsive web development",
-      "summary": "Docksrio had just just launched in the UK and were looking to change their brand impression to match a more European market. We were commissioned to work on their website to make it a bit more translatable in the UK.",
+      "summary": "When Docksrio launched in the UK ,they were looking to evolve their brand to match a more European market. We developed their website to make it a bit more translatable in the UK.",
       "features": "Responsive html5 banners, dynamic reusable code",
       "duration": "6 months",
       "caseStudy": {
@@ -328,7 +396,8 @@ var data = {
       "reference": "wellcom",
       "clientImg": "wellcom_logo.png",
       "snapshot": "wellcom.png",
-      "project": "Multiple client advertising campaigns and banner building",
+      "portfolio_img": "wellcom_tile.jpg",
+      "project": "Multiple client banner ad campaigns",
       "type": "Build and consultancy",
       "category": "banner development",
       "index": "7",
@@ -360,12 +429,13 @@ var data = {
       },
       "testimonial": ""
     },
-    {
+    /*{
       "client": "Touker Suleyman",
       "reference": "touker",
       "clientImg": "touker_logo.png",
       "snapshot": "touker.png",
-      "project": "Touker website for dragon's den launch",
+      "portfolio_img": "touker_tile.jpg",
+      "project": "Website build for Touker time for his dragon's den debut",
       "type": "Build",
       "category": "website development",
       "index": "8",
@@ -396,13 +466,14 @@ var data = {
         ]
       },
       "testimonial": ""
-    },
+    },*/
     {
         "client": "Huxley and Cox",
         "reference": "huxleyandcox",
         "clientImg": "huxley_logo.png",
         "snapshot": "huxley.png",
-        "project": "Huxley and Cox website build ",
+        "portfolio_img": "huxley_tile.jpg",
+        "project": "Huxley and Cox website templating and build ",
         "type": "Build",
         "category": "website development",
         "index": "9",
@@ -436,6 +507,49 @@ var data = {
             {"tile": "huxley-thumb_2.jpg"},
             {"tile": "huxley-thumb_3.jpg"},
             {"tile": "huxley-thumb_4.jpg"}
+          ]
+        },
+        "testimonial": ""
+    },
+    {
+        "client": "Rusevero",
+        "reference": "rusevero",
+        "clientImg": "rusevero_logo.png",
+        "snapshot": "rusevero.png",
+        "portfolio_img": "rusevero_tile.jpg",
+        "project": "Website build, branding and social marketing strategy",
+        "type": "Build",
+        "category": "website development",
+        "index": "9",
+        "url": "http://www.rusevero.com",
+        "scale": "medium",
+        "services": "Web development, website build",
+        "keywords": "seo, google analytics, responsive web development",
+        "summary": "Rusevero is a company which produces bespoke, limited edition African wear for special occasions like weddings and Africa day, they needed their website to give a user experience as excellent as their products",
+        "features": "Content management system, Ecommerce capabilility, responsive design, Customer tracking",
+        "duration": "3 months",
+        "caseStudy": {
+            "caseSummary": "Rusevero approached us to design and built their website and social media portfolio. We began by designing their logo, then set out their brand guidelines after researching their market. We were privileged to have complete control over the direction of their digital campaign. We created a website with ecommerce capabilities as well as a lot of information on the company, which was all created and authored by our copywriters",
+            "caseFeatures": [
+              {"feature": "sticky header"},
+              {"feature": "store"},
+              {"feature": "responsive"},
+              {"feature": "analytics"},
+              {"feature": "content manager"},
+              {"feature": "dynamic site search"},
+              {"feature": "blog"},
+              {"feature": "product filtering"},
+              {"feature": "backward browser compatitible"},
+              {"feature": "cross device specific support"},
+              {"feature": "mini basket"}
+            ]
+        },
+        "featured": {
+          "tiles":[
+            {"tile": "rusevero-thumb_1.jpg"},
+            {"tile": "rusevero-thumb_2.jpg"},
+            {"tile": "rusevero-thumb_3.jpg"},
+            {"tile": "rusevero-thumb_4.jpg"}
           ]
         },
         "testimonial": ""
@@ -528,7 +642,7 @@ var data = {
     {
       "label":"Portfolio",
       "icon":"portfolio.png",
-      "url":"http://www.design263#portfolio"
+      "url":"http://www.design263/portfolio"
     },
     {
       "label":"Store",

@@ -25,14 +25,14 @@ gulp.task('js', function() {
   return gulp.src(jsSources)
     .pipe(concat('script.js'))
     .pipe(uglify().on('error', gutil.log))
-    .pipe(gulp.dest('public/js/'));
+    .pipe(gulp.dest('components/js/'));
 });
 
 gulp.task('sass', function () {
   return gulp.src(['components/sass/*.scss','components/sass/**/*.scss' ])
     .pipe(sass())
     .pipe(cssnano())
-    .pipe(gulp.dest('public/css/'))
+    .pipe(gulp.dest('components/css/'))
     .pipe(browserSync.reload({
 	    stream: true
     }));
@@ -47,10 +47,11 @@ gulp.task('browserSync', function() {
 });
 
 gulp.task('useref', function(){
-  return gulp.src('components/**/index.html')
+  return gulp.src('components/*.html')
     .pipe(useref())
-    .pipe(gulpIf('components/*.css', cssnano()))
-    .pipe(gulp.dest('public/'));
+    .pipe(gulpIf('*.js', uglify()))
+    .pipe(gulpIf('*.css', cssnano()))
+    .pipe(gulp.dest('public'));
 });
 
 
@@ -60,7 +61,7 @@ gulp.task('images', function(){
       // Setting interlaced to true
       interlaced: true
     }))
-  .pipe(gulp.dest('components/img/'));
+  .pipe(gulp.dest('public/img/'));
 });
 
 gulp.task('fonts', function() {
@@ -78,17 +79,6 @@ gulp.task('watch',['browserSync', 'sass'], function () {
 	gulp.watch('components/js/*.js', browserSync.reload);
 });
 
-/*gulp.task('build', function (callback) {
-  runSequence('clean:public',
-    ['js','sass', 'useref', 'images', 'fonts'],
-    callback
-  );
-});
-
-gulp.task('default', function (callback) {
-  runSequence(['js'],
-    callback
-  );*/
   gulp.task('build', function (callback) {
   runSequence('clean:public',
     ['sass', 'useref', 'images', 'fonts'],

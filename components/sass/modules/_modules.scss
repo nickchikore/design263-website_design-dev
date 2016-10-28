@@ -12,7 +12,15 @@
 @import "showcase";
 @import "tiles";
 @import "carousel";
+@import "portfolio-grid";
 
+a.btn.review {
+    background: white;
+  &:hover {
+      background: #0c6eba;
+      color: inherit;
+  }
+}
 
 #featured:before{
   //background-image: url("/images/graphics/png/bg-fill-01.png");

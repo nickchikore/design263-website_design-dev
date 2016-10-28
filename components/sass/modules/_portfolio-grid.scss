@@ -1,0 +1,143 @@
+.portfolio{
+  .hero{
+    @media(max-width: 480px){
+      margin-top: 20px;
+      p{
+        font-size: .75em;
+      }
+    }
+  }
+
+  .clincher{
+    background:white;
+    box-shadow: none;
+    text-align: left;
+    padding: 5em;
+    font-weight: 100;
+    color: #818181;
+    .imgBg:before {
+        content: ' ';
+        display: block;
+        width: 100%;
+        padding-top: 4em;
+    }
+    h3 {
+        padding-top: 1em;
+        background: transparent;
+        color: inherit;
+        text-align: inherit;
+    }
+    p{
+       color: inherit;
+       font-size: 1.25em;
+    }
+
+    a{
+      color:#00a8e6;
+      &.text-link {
+          border: none;
+          //text-decoration: underline;
+          padding: 0;
+      }
+      &.btn.primary-btn {
+          color:white;
+          background:#00a8e6;
+          //border-radius: 0;
+          //padding: 4px;
+          margin: 0 1em 0 0;
+      }
+    }
+    &:after{
+      content:'';
+      display:block;
+      clear:both;
+    }
+    .mobile{
+      display: none;
+    }
+    .desktop{
+      display:block;
+    }
+    @media (max-width:960px){
+      padding: 2em;
+      p,h3 {
+          font-size: 1em;
+      }
+      .mobile{
+        display: block;
+      }
+      .desktop{
+        display:none;
+      }
+    }
+
+  }
+
+  #clients {
+    li {
+      margin: 0;
+      padding: 0;
+      .dmx3DFlipPhotoBack{
+        a{
+          border-radius: 0;
+          font-size: .9em;
+        }
+        p{
+          &.shortDesc{display:none;}
+          &.longDesc{display:block;}
+        }
+        @media(max-width: 640px){
+
+          p{
+            &.shortDesc{display:block; font-size:0.8em}
+            &.longDesc{display:none;}
+          }
+          a{
+            margin-top: .5em;
+            padding: 4px;
+            border-radius: 0;
+            font-size: .8em;
+            &.external{
+              display:none;
+            }
+          }
+        }
+      }
+
+
+      .dealClincher {
+        background: transparent;
+        box-shadow: none;
+        text-align: left;
+        padding: 1em;
+        h3 {
+            padding-top: 1em;
+            background: transparent;
+            color: white;
+            text-align: inherit;
+        }
+       p{
+           color: white
+        }
+
+        a{
+          color:#b1b1b1;
+          &.text-link {
+              border: none;
+              text-decoration: underline;
+              padding: 0;
+          }
+          &.btn.primary-btn {
+              color:#1565c0;
+              background: white;
+              border-radius: 0;
+              padding: 4px;
+              margin: 0 1em 0 0;
+          }
+        }
+      }
+    }
+
+  }
+
+}

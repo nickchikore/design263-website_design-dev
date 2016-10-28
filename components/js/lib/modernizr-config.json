@@ -1,0 +1,38 @@
+{
+  "minify": true,
+  "options": [
+    "setClasses"
+  ],
+  "feature-detects": [
+    "test/htmlimports",
+    "test/ie8compat",
+    "test/json",
+    "test/svg",
+    "test/video",
+    "test/css/animations",
+    "test/css/appearance",
+    "test/css/backgroundblendmode",
+    "test/css/backgroundcliptext",
+    "test/css/backgroundposition-shorthand",
+    "test/css/backgroundposition-xy",
+    "test/css/backgroundrepeat",
+    "test/css/backgroundsize",
+    "test/css/backgroundsizecover",
+    "test/css/borderradius",
+    "test/css/fontface",
+    "test/css/generatedcontent",
+    "test/css/mediaqueries",
+    "test/css/nthchild",
+    "test/css/opacity",
+    "test/css/rgba",
+    "test/css/textshadow",
+    "test/css/transforms",
+    "test/css/transitions",
+    "test/forms/placeholder",
+    "test/forms/validation",
+    "test/network/fetch",
+    "test/network/xhr2",
+    "test/svg/asimg",
+    "test/svg/inline"
+  ]
+}
